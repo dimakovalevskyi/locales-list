@@ -1,3 +1,9 @@
+/*!
+ * LocalesList v1.0.0 (https://github.com/dimakovalevskyi/locales-list)
+ * Copyright 2020 Dmytro Kovalevskyi
+ * 
+ * Licensed under MIT (https://dimakovalevskyi.mit-license.org/)
+ */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -103,7 +109,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/define-property */ "./node_modules/core-js/library/fn/object/define-property.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/object/define-property */ \"./node_modules/core-js/library/fn/object/define-property.js\"), __esModule: true };\n\n//# sourceURL=webpack://LocalesList/./node_modules/babel-runtime/core-js/object/define-property.js?");
 
 /***/ }),
 
@@ -115,15 +121,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-
-exports.default = function (instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-};
+eval("\n\nexports.__esModule = true;\n\nexports.default = function (instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n};\n\n//# sourceURL=webpack://LocalesList/./node_modules/babel-runtime/helpers/classCallCheck.js?");
 
 /***/ }),
 
@@ -135,33 +133,7 @@ exports.default = function (instance, Constructor) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-
-var _defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/babel-runtime/core-js/object/define-property.js");
-
-var _defineProperty2 = _interopRequireDefault(_defineProperty);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function () {
-  function defineProperties(target, props) {
-    for (var i = 0; i < props.length; i++) {
-      var descriptor = props[i];
-      descriptor.enumerable = descriptor.enumerable || false;
-      descriptor.configurable = true;
-      if ("value" in descriptor) descriptor.writable = true;
-      (0, _defineProperty2.default)(target, descriptor.key, descriptor);
-    }
-  }
-
-  return function (Constructor, protoProps, staticProps) {
-    if (protoProps) defineProperties(Constructor.prototype, protoProps);
-    if (staticProps) defineProperties(Constructor, staticProps);
-    return Constructor;
-  };
-}();
+eval("\n\nexports.__esModule = true;\n\nvar _defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ \"./node_modules/babel-runtime/core-js/object/define-property.js\");\n\nvar _defineProperty2 = _interopRequireDefault(_defineProperty);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function () {\n  function defineProperties(target, props) {\n    for (var i = 0; i < props.length; i++) {\n      var descriptor = props[i];\n      descriptor.enumerable = descriptor.enumerable || false;\n      descriptor.configurable = true;\n      if (\"value\" in descriptor) descriptor.writable = true;\n      (0, _defineProperty2.default)(target, descriptor.key, descriptor);\n    }\n  }\n\n  return function (Constructor, protoProps, staticProps) {\n    if (protoProps) defineProperties(Constructor.prototype, protoProps);\n    if (staticProps) defineProperties(Constructor, staticProps);\n    return Constructor;\n  };\n}();\n\n//# sourceURL=webpack://LocalesList/./node_modules/babel-runtime/helpers/createClass.js?");
 
 /***/ }),
 
@@ -172,12 +144,7 @@ exports.default = function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.define-property */ "./node_modules/core-js/library/modules/es6.object.define-property.js");
-var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object;
-module.exports = function defineProperty(it, key, desc) {
-  return $Object.defineProperty(it, key, desc);
-};
-
+eval("__webpack_require__(/*! ../../modules/es6.object.define-property */ \"./node_modules/core-js/library/modules/es6.object.define-property.js\");\nvar $Object = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object;\nmodule.exports = function defineProperty(it, key, desc) {\n  return $Object.defineProperty(it, key, desc);\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/fn/object/define-property.js?");
 
 /***/ }),
 
@@ -188,11 +155,7 @@ module.exports = function defineProperty(it, key, desc) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (it) {
-  if (typeof it != 'function') throw TypeError(it + ' is not a function!');
-  return it;
-};
-
+eval("module.exports = function (it) {\n  if (typeof it != 'function') throw TypeError(it + ' is not a function!');\n  return it;\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_a-function.js?");
 
 /***/ }),
 
@@ -203,12 +166,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-module.exports = function (it) {
-  if (!isObject(it)) throw TypeError(it + ' is not an object!');
-  return it;
-};
-
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nmodule.exports = function (it) {\n  if (!isObject(it)) throw TypeError(it + ' is not an object!');\n  return it;\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_an-object.js?");
 
 /***/ }),
 
@@ -219,9 +177,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.11' };
-if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
-
+eval("var core = module.exports = { version: '2.6.11' };\nif (typeof __e == 'number') __e = core; // eslint-disable-line no-undef\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_core.js?");
 
 /***/ }),
 
@@ -232,27 +188,7 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// optional / simple context binding
-var aFunction = __webpack_require__(/*! ./_a-function */ "./node_modules/core-js/library/modules/_a-function.js");
-module.exports = function (fn, that, length) {
-  aFunction(fn);
-  if (that === undefined) return fn;
-  switch (length) {
-    case 1: return function (a) {
-      return fn.call(that, a);
-    };
-    case 2: return function (a, b) {
-      return fn.call(that, a, b);
-    };
-    case 3: return function (a, b, c) {
-      return fn.call(that, a, b, c);
-    };
-  }
-  return function (/* ...args */) {
-    return fn.apply(that, arguments);
-  };
-};
-
+eval("// optional / simple context binding\nvar aFunction = __webpack_require__(/*! ./_a-function */ \"./node_modules/core-js/library/modules/_a-function.js\");\nmodule.exports = function (fn, that, length) {\n  aFunction(fn);\n  if (that === undefined) return fn;\n  switch (length) {\n    case 1: return function (a) {\n      return fn.call(that, a);\n    };\n    case 2: return function (a, b) {\n      return fn.call(that, a, b);\n    };\n    case 3: return function (a, b, c) {\n      return fn.call(that, a, b, c);\n    };\n  }\n  return function (/* ...args */) {\n    return fn.apply(that, arguments);\n  };\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_ctx.js?");
 
 /***/ }),
 
@@ -263,11 +199,7 @@ module.exports = function (fn, that, length) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// Thank's IE8 for his funny defineProperty
-module.exports = !__webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
-  return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
-});
-
+eval("// Thank's IE8 for his funny defineProperty\nmodule.exports = !__webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;\n});\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_descriptors.js?");
 
 /***/ }),
 
@@ -278,14 +210,7 @@ module.exports = !__webpack_require__(/*! ./_fails */ "./node_modules/core-js/li
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-var document = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").document;
-// typeof document.createElement is 'object' in old IE
-var is = isObject(document) && isObject(document.createElement);
-module.exports = function (it) {
-  return is ? document.createElement(it) : {};
-};
-
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar document = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\").document;\n// typeof document.createElement is 'object' in old IE\nvar is = isObject(document) && isObject(document.createElement);\nmodule.exports = function (it) {\n  return is ? document.createElement(it) : {};\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_dom-create.js?");
 
 /***/ }),
 
@@ -296,69 +221,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
-var core = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js");
-var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
-var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
-var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
-var PROTOTYPE = 'prototype';
-
-var $export = function (type, name, source) {
-  var IS_FORCED = type & $export.F;
-  var IS_GLOBAL = type & $export.G;
-  var IS_STATIC = type & $export.S;
-  var IS_PROTO = type & $export.P;
-  var IS_BIND = type & $export.B;
-  var IS_WRAP = type & $export.W;
-  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});
-  var expProto = exports[PROTOTYPE];
-  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE];
-  var key, own, out;
-  if (IS_GLOBAL) source = name;
-  for (key in source) {
-    // contains in native
-    own = !IS_FORCED && target && target[key] !== undefined;
-    if (own && has(exports, key)) continue;
-    // export native or passed
-    out = own ? target[key] : source[key];
-    // prevent global pollution for namespaces
-    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]
-    // bind timers to global for call from export context
-    : IS_BIND && own ? ctx(out, global)
-    // wrap global constructors for prevent change them in library
-    : IS_WRAP && target[key] == out ? (function (C) {
-      var F = function (a, b, c) {
-        if (this instanceof C) {
-          switch (arguments.length) {
-            case 0: return new C();
-            case 1: return new C(a);
-            case 2: return new C(a, b);
-          } return new C(a, b, c);
-        } return C.apply(this, arguments);
-      };
-      F[PROTOTYPE] = C[PROTOTYPE];
-      return F;
-    // make static versions for prototype methods
-    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
-    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%
-    if (IS_PROTO) {
-      (exports.virtual || (exports.virtual = {}))[key] = out;
-      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%
-      if (type & $export.R && expProto && !expProto[key]) hide(expProto, key, out);
-    }
-  }
-};
-// type bitmap
-$export.F = 1;   // forced
-$export.G = 2;   // global
-$export.S = 4;   // static
-$export.P = 8;   // proto
-$export.B = 16;  // bind
-$export.W = 32;  // wrap
-$export.U = 64;  // safe
-$export.R = 128; // real proto method for `library`
-module.exports = $export;
-
+eval("var global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar PROTOTYPE = 'prototype';\n\nvar $export = function (type, name, source) {\n  var IS_FORCED = type & $export.F;\n  var IS_GLOBAL = type & $export.G;\n  var IS_STATIC = type & $export.S;\n  var IS_PROTO = type & $export.P;\n  var IS_BIND = type & $export.B;\n  var IS_WRAP = type & $export.W;\n  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});\n  var expProto = exports[PROTOTYPE];\n  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE];\n  var key, own, out;\n  if (IS_GLOBAL) source = name;\n  for (key in source) {\n    // contains in native\n    own = !IS_FORCED && target && target[key] !== undefined;\n    if (own && has(exports, key)) continue;\n    // export native or passed\n    out = own ? target[key] : source[key];\n    // prevent global pollution for namespaces\n    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]\n    // bind timers to global for call from export context\n    : IS_BIND && own ? ctx(out, global)\n    // wrap global constructors for prevent change them in library\n    : IS_WRAP && target[key] == out ? (function (C) {\n      var F = function (a, b, c) {\n        if (this instanceof C) {\n          switch (arguments.length) {\n            case 0: return new C();\n            case 1: return new C(a);\n            case 2: return new C(a, b);\n          } return new C(a, b, c);\n        } return C.apply(this, arguments);\n      };\n      F[PROTOTYPE] = C[PROTOTYPE];\n      return F;\n    // make static versions for prototype methods\n    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;\n    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%\n    if (IS_PROTO) {\n      (exports.virtual || (exports.virtual = {}))[key] = out;\n      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%\n      if (type & $export.R && expProto && !expProto[key]) hide(expProto, key, out);\n    }\n  }\n};\n// type bitmap\n$export.F = 1;   // forced\n$export.G = 2;   // global\n$export.S = 4;   // static\n$export.P = 8;   // proto\n$export.B = 16;  // bind\n$export.W = 32;  // wrap\n$export.U = 64;  // safe\n$export.R = 128; // real proto method for `library`\nmodule.exports = $export;\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_export.js?");
 
 /***/ }),
 
@@ -369,14 +232,7 @@ module.exports = $export;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (exec) {
-  try {
-    return !!exec();
-  } catch (e) {
-    return true;
-  }
-};
-
+eval("module.exports = function (exec) {\n  try {\n    return !!exec();\n  } catch (e) {\n    return true;\n  }\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_fails.js?");
 
 /***/ }),
 
@@ -387,13 +243,7 @@ module.exports = function (exec) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
-var global = module.exports = typeof window != 'undefined' && window.Math == Math
-  ? window : typeof self != 'undefined' && self.Math == Math ? self
-  // eslint-disable-next-line no-new-func
-  : Function('return this')();
-if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
-
+eval("// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028\nvar global = module.exports = typeof window != 'undefined' && window.Math == Math\n  ? window : typeof self != 'undefined' && self.Math == Math ? self\n  // eslint-disable-next-line no-new-func\n  : Function('return this')();\nif (typeof __g == 'number') __g = global; // eslint-disable-line no-undef\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_global.js?");
 
 /***/ }),
 
@@ -404,11 +254,7 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var hasOwnProperty = {}.hasOwnProperty;
-module.exports = function (it, key) {
-  return hasOwnProperty.call(it, key);
-};
-
+eval("var hasOwnProperty = {}.hasOwnProperty;\nmodule.exports = function (it, key) {\n  return hasOwnProperty.call(it, key);\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_has.js?");
 
 /***/ }),
 
@@ -419,15 +265,7 @@ module.exports = function (it, key) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
-var createDesc = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
-module.exports = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") ? function (object, key, value) {
-  return dP.f(object, key, createDesc(1, value));
-} : function (object, key, value) {
-  object[key] = value;
-  return object;
-};
-
+eval("var dP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\");\nvar createDesc = __webpack_require__(/*! ./_property-desc */ \"./node_modules/core-js/library/modules/_property-desc.js\");\nmodule.exports = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? function (object, key, value) {\n  return dP.f(object, key, createDesc(1, value));\n} : function (object, key, value) {\n  object[key] = value;\n  return object;\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_hide.js?");
 
 /***/ }),
 
@@ -438,10 +276,7 @@ module.exports = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = !__webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") && !__webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
-  return Object.defineProperty(__webpack_require__(/*! ./_dom-create */ "./node_modules/core-js/library/modules/_dom-create.js")('div'), 'a', { get: function () { return 7; } }).a != 7;
-});
-
+eval("module.exports = !__webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") && !__webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  return Object.defineProperty(__webpack_require__(/*! ./_dom-create */ \"./node_modules/core-js/library/modules/_dom-create.js\")('div'), 'a', { get: function () { return 7; } }).a != 7;\n});\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_ie8-dom-define.js?");
 
 /***/ }),
 
@@ -452,10 +287,7 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ "./node_modules/core
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (it) {
-  return typeof it === 'object' ? it !== null : typeof it === 'function';
-};
-
+eval("module.exports = function (it) {\n  return typeof it === 'object' ? it !== null : typeof it === 'function';\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_is-object.js?");
 
 /***/ }),
 
@@ -466,23 +298,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
-var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ "./node_modules/core-js/library/modules/_ie8-dom-define.js");
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ "./node_modules/core-js/library/modules/_to-primitive.js");
-var dP = Object.defineProperty;
-
-exports.f = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") ? Object.defineProperty : function defineProperty(O, P, Attributes) {
-  anObject(O);
-  P = toPrimitive(P, true);
-  anObject(Attributes);
-  if (IE8_DOM_DEFINE) try {
-    return dP(O, P, Attributes);
-  } catch (e) { /* empty */ }
-  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported!');
-  if ('value' in Attributes) O[P] = Attributes.value;
-  return O;
-};
-
+eval("var anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ \"./node_modules/core-js/library/modules/_ie8-dom-define.js\");\nvar toPrimitive = __webpack_require__(/*! ./_to-primitive */ \"./node_modules/core-js/library/modules/_to-primitive.js\");\nvar dP = Object.defineProperty;\n\nexports.f = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? Object.defineProperty : function defineProperty(O, P, Attributes) {\n  anObject(O);\n  P = toPrimitive(P, true);\n  anObject(Attributes);\n  if (IE8_DOM_DEFINE) try {\n    return dP(O, P, Attributes);\n  } catch (e) { /* empty */ }\n  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported!');\n  if ('value' in Attributes) O[P] = Attributes.value;\n  return O;\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_object-dp.js?");
 
 /***/ }),
 
@@ -493,15 +309,7 @@ exports.f = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/li
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (bitmap, value) {
-  return {
-    enumerable: !(bitmap & 1),
-    configurable: !(bitmap & 2),
-    writable: !(bitmap & 4),
-    value: value
-  };
-};
-
+eval("module.exports = function (bitmap, value) {\n  return {\n    enumerable: !(bitmap & 1),\n    configurable: !(bitmap & 2),\n    writable: !(bitmap & 4),\n    value: value\n  };\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_property-desc.js?");
 
 /***/ }),
 
@@ -512,19 +320,7 @@ module.exports = function (bitmap, value) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 7.1.1 ToPrimitive(input [, PreferredType])
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-// instead of the ES6 spec version, we didn't implement @@toPrimitive case
-// and the second argument - flag - preferred type is a string
-module.exports = function (it, S) {
-  if (!isObject(it)) return it;
-  var fn, val;
-  if (S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
-  if (typeof (fn = it.valueOf) == 'function' && !isObject(val = fn.call(it))) return val;
-  if (!S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
-  throw TypeError("Can't convert object to primitive value");
-};
-
+eval("// 7.1.1 ToPrimitive(input [, PreferredType])\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\n// instead of the ES6 spec version, we didn't implement @@toPrimitive case\n// and the second argument - flag - preferred type is a string\nmodule.exports = function (it, S) {\n  if (!isObject(it)) return it;\n  var fn, val;\n  if (S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;\n  if (typeof (fn = it.valueOf) == 'function' && !isObject(val = fn.call(it))) return val;\n  if (!S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;\n  throw TypeError(\"Can't convert object to primitive value\");\n};\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/_to-primitive.js?");
 
 /***/ }),
 
@@ -535,10 +331,7 @@ module.exports = function (it, S) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
-$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js"), 'Object', { defineProperty: __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f });
-
+eval("var $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)\n$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\"), 'Object', { defineProperty: __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f });\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/core-js/library/modules/es6.object.define-property.js?");
 
 /***/ }),
 
@@ -549,306 +342,7 @@ $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./no
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-(function() {
-    var Iso31661a2, mout, singleton;
-
-    mout = __webpack_require__(/*! mout/object */ "./node_modules/mout/object.js");
-
-    Iso31661a2 = (function() {
-        function Iso31661a2() {}
-
-        Iso31661a2.prototype.getCountry = function(code) {
-            return Iso31661a2.prototype.countries[code];
-        };
-
-        Iso31661a2.prototype.getCode = function(country) {
-            var idx, ret;
-            ret = null;
-            if (country != null) {
-                idx = mout.values(Iso31661a2.prototype.countries).indexOf(country);
-                if (idx !== -1) {
-                    ret = Object.keys(Iso31661a2.prototype.countries)[idx];
-                }
-            }
-            return ret;
-        };
-
-        Iso31661a2.prototype.getCountries = function() {
-            return mout.values(Iso31661a2.prototype.countries);
-        };
-
-        Iso31661a2.prototype.getCodes = function() {
-            return Object.keys(Iso31661a2.prototype.countries);
-        };
-
-        Iso31661a2.prototype.getData = function() {
-            return Iso31661a2.prototype.countries;
-        };
-
-        Iso31661a2.prototype.countries = {
-            AF: "Afghanistan",
-            AX: "Åland Islands",
-            AL: "Albania",
-            DZ: "Algeria",
-            AS: "American Samoa",
-            AD: "Andorra",
-            AO: "Angola",
-            AI: "Anguilla",
-            AQ: "Antarctica",
-            AG: "Antigua and Barbuda",
-            AR: "Argentina",
-            AM: "Armenia",
-            AW: "Aruba",
-            AU: "Australia",
-            AT: "Austria",
-            AZ: "Azerbaijan",
-            BS: "Bahamas",
-            BH: "Bahrain",
-            BD: "Bangladesh",
-            BB: "Barbados",
-            BY: "Belarus",
-            BE: "Belgium",
-            BZ: "Belize",
-            BJ: "Benin",
-            BM: "Bermuda",
-            BT: "Bhutan",
-            BO: "Bolivia, Plurinational State of",
-            BQ: "Bonaire, Sint Eustatius and Saba",
-            BA: "Bosnia and Herzegovina",
-            BW: "Botswana",
-            BV: "Bouvet Island",
-            BR: "Brazil",
-            IO: "British Indian Ocean Territory",
-            BN: "Brunei Darussalam",
-            BG: "Bulgaria",
-            BF: "Burkina Faso",
-            BI: "Burundi",
-            KH: "Cambodia",
-            CM: "Cameroon",
-            CA: "Canada",
-            CV: "Cape Verde",
-            KY: "Cayman Islands",
-            CF: "Central African Republic",
-            TD: "Chad",
-            CL: "Chile",
-            CN: "China",
-            CX: "Christmas Island",
-            CC: "Cocos (Keeling) Islands",
-            CO: "Colombia",
-            KM: "Comoros",
-            CG: "Congo",
-            CD: "Congo, the Democratic Republic of the",
-            CK: "Cook Islands",
-            CR: "Costa Rica",
-            CI: "Côte d'Ivoire",
-            HR: "Croatia",
-            CU: "Cuba",
-            CW: "Curaçao",
-            CY: "Cyprus",
-            CZ: "Czech Republic",
-            DK: "Denmark",
-            DJ: "Djibouti",
-            DM: "Dominica",
-            DO: "Dominican Republic",
-            EC: "Ecuador",
-            EG: "Egypt",
-            SV: "El Salvador",
-            GQ: "Equatorial Guinea",
-            ER: "Eritrea",
-            EE: "Estonia",
-            ET: "Ethiopia",
-            FK: "Falkland Islands (Malvinas)",
-            FO: "Faroe Islands",
-            FJ: "Fiji",
-            FI: "Finland",
-            FR: "France",
-            GF: "French Guiana",
-            PF: "French Polynesia",
-            TF: "French Southern Territories",
-            GA: "Gabon",
-            GM: "Gambia",
-            GE: "Georgia",
-            DE: "Germany",
-            GH: "Ghana",
-            GI: "Gibraltar",
-            GR: "Greece",
-            GL: "Greenland",
-            GD: "Grenada",
-            GP: "Guadeloupe",
-            GU: "Guam",
-            GT: "Guatemala",
-            GG: "Guernsey",
-            GN: "Guinea",
-            GW: "Guinea-Bissau",
-            GY: "Guyana",
-            HT: "Haiti",
-            HM: "Heard Island and McDonald Mcdonald Islands",
-            VA: "Holy See (Vatican City State)",
-            HN: "Honduras",
-            HK: "Hong Kong",
-            HU: "Hungary",
-            IS: "Iceland",
-            IN: "India",
-            ID: "Indonesia",
-            IR: "Iran, Islamic Republic of",
-            IQ: "Iraq",
-            IE: "Ireland",
-            IM: "Isle of Man",
-            IL: "Israel",
-            IT: "Italy",
-            JM: "Jamaica",
-            JP: "Japan",
-            JE: "Jersey",
-            JO: "Jordan",
-            KZ: "Kazakhstan",
-            KE: "Kenya",
-            KI: "Kiribati",
-            KP: "Korea, Democratic People's Republic of",
-            KR: "Korea, Republic of",
-            KW: "Kuwait",
-            KG: "Kyrgyzstan",
-            LA: "Lao People's Democratic Republic",
-            LV: "Latvia",
-            LB: "Lebanon",
-            LS: "Lesotho",
-            LR: "Liberia",
-            LY: "Libya",
-            LI: "Liechtenstein",
-            LT: "Lithuania",
-            LU: "Luxembourg",
-            MO: "Macao",
-            MK: "Macedonia, the Former Yugoslav Republic of",
-            MG: "Madagascar",
-            MW: "Malawi",
-            MY: "Malaysia",
-            MV: "Maldives",
-            ML: "Mali",
-            MT: "Malta",
-            MH: "Marshall Islands",
-            MQ: "Martinique",
-            MR: "Mauritania",
-            MU: "Mauritius",
-            YT: "Mayotte",
-            MX: "Mexico",
-            FM: "Micronesia, Federated States of",
-            MD: "Moldova, Republic of",
-            MC: "Monaco",
-            MN: "Mongolia",
-            ME: "Montenegro",
-            MS: "Montserrat",
-            MA: "Morocco",
-            MZ: "Mozambique",
-            MM: "Myanmar",
-            NA: "Namibia",
-            NR: "Nauru",
-            NP: "Nepal",
-            NL: "Netherlands",
-            NC: "New Caledonia",
-            NZ: "New Zealand",
-            NI: "Nicaragua",
-            NE: "Niger",
-            NG: "Nigeria",
-            NU: "Niue",
-            NF: "Norfolk Island",
-            MP: "Northern Mariana Islands",
-            NO: "Norway",
-            OM: "Oman",
-            PK: "Pakistan",
-            PW: "Palau",
-            PS: "Palestine, State of",
-            PA: "Panama",
-            PG: "Papua New Guinea",
-            PY: "Paraguay",
-            PE: "Peru",
-            PH: "Philippines",
-            PN: "Pitcairn",
-            PL: "Poland",
-            PT: "Portugal",
-            PR: "Puerto Rico",
-            QA: "Qatar",
-            RE: "Réunion",
-            RO: "Romania",
-            RU: "Russian Federation",
-            RW: "Rwanda",
-            BL: "Saint Barthélemy",
-            SH: "Saint Helena, Ascension and Tristan da Cunha",
-            KN: "Saint Kitts and Nevis",
-            LC: "Saint Lucia",
-            MF: "Saint Martin (French part)",
-            PM: "Saint Pierre and Miquelon",
-            VC: "Saint Vincent and the Grenadines",
-            WS: "Samoa",
-            SM: "San Marino",
-            ST: "Sao Tome and Principe",
-            SA: "Saudi Arabia",
-            SN: "Senegal",
-            RS: "Serbia",
-            SC: "Seychelles",
-            SL: "Sierra Leone",
-            SG: "Singapore",
-            SX: "Sint Maarten (Dutch part)",
-            SK: "Slovakia",
-            SI: "Slovenia",
-            SB: "Solomon Islands",
-            SO: "Somalia",
-            ZA: "South Africa",
-            GS: "South Georgia and the South Sandwich Islands",
-            SS: "South Sudan",
-            ES: "Spain",
-            LK: "Sri Lanka",
-            SD: "Sudan",
-            SR: "Suriname",
-            SJ: "Svalbard and Jan Mayen",
-            SZ: "Swaziland",
-            SE: "Sweden",
-            CH: "Switzerland",
-            SY: "Syrian Arab Republic",
-            TW: "Taiwan, Province of China",
-            TJ: "Tajikistan",
-            TZ: "Tanzania, United Republic of",
-            TH: "Thailand",
-            TL: "Timor-Leste",
-            TG: "Togo",
-            TK: "Tokelau",
-            TO: "Tonga",
-            TT: "Trinidad and Tobago",
-            TN: "Tunisia",
-            TR: "Turkey",
-            TM: "Turkmenistan",
-            TC: "Turks and Caicos Islands",
-            TV: "Tuvalu",
-            UG: "Uganda",
-            UA: "Ukraine",
-            AE: "United Arab Emirates",
-            GB: "United Kingdom",
-            US: "United States",
-            UM: "United States Minor Outlying Islands",
-            UY: "Uruguay",
-            UZ: "Uzbekistan",
-            VU: "Vanuatu",
-            VE: "Venezuela, Bolivarian Republic of",
-            VN: "Viet Nam",
-            VG: "Virgin Islands, British",
-            VI: "Virgin Islands, U.S.",
-            WF: "Wallis and Futuna",
-            EH: "Western Sahara",
-            YE: "Yemen",
-            ZM: "Zambia",
-            ZW: "Zimbabwe"
-        };
-
-        return Iso31661a2;
-
-    })();
-
-    singleton = null;
-
-    module.exports = (function() {
-        return singleton != null ? singleton : singleton = new Iso31661a2();
-    })();
-
-}).call(this);
-
+eval("(function() {\r\n    var Iso31661a2, mout, singleton;\r\n\r\n    mout = __webpack_require__(/*! mout/object */ \"./node_modules/mout/object.js\");\r\n\r\n    Iso31661a2 = (function() {\r\n        function Iso31661a2() {}\r\n\r\n        Iso31661a2.prototype.getCountry = function(code) {\r\n            return Iso31661a2.prototype.countries[code];\r\n        };\r\n\r\n        Iso31661a2.prototype.getCode = function(country) {\r\n            var idx, ret;\r\n            ret = null;\r\n            if (country != null) {\r\n                idx = mout.values(Iso31661a2.prototype.countries).indexOf(country);\r\n                if (idx !== -1) {\r\n                    ret = Object.keys(Iso31661a2.prototype.countries)[idx];\r\n                }\r\n            }\r\n            return ret;\r\n        };\r\n\r\n        Iso31661a2.prototype.getCountries = function() {\r\n            return mout.values(Iso31661a2.prototype.countries);\r\n        };\r\n\r\n        Iso31661a2.prototype.getCodes = function() {\r\n            return Object.keys(Iso31661a2.prototype.countries);\r\n        };\r\n\r\n        Iso31661a2.prototype.getData = function() {\r\n            return Iso31661a2.prototype.countries;\r\n        };\r\n\r\n        Iso31661a2.prototype.countries = {\r\n            AF: \"Afghanistan\",\r\n            AX: \"Åland Islands\",\r\n            AL: \"Albania\",\r\n            DZ: \"Algeria\",\r\n            AS: \"American Samoa\",\r\n            AD: \"Andorra\",\r\n            AO: \"Angola\",\r\n            AI: \"Anguilla\",\r\n            AQ: \"Antarctica\",\r\n            AG: \"Antigua and Barbuda\",\r\n            AR: \"Argentina\",\r\n            AM: \"Armenia\",\r\n            AW: \"Aruba\",\r\n            AU: \"Australia\",\r\n            AT: \"Austria\",\r\n            AZ: \"Azerbaijan\",\r\n            BS: \"Bahamas\",\r\n            BH: \"Bahrain\",\r\n            BD: \"Bangladesh\",\r\n            BB: \"Barbados\",\r\n            BY: \"Belarus\",\r\n            BE: \"Belgium\",\r\n            BZ: \"Belize\",\r\n            BJ: \"Benin\",\r\n            BM: \"Bermuda\",\r\n            BT: \"Bhutan\",\r\n            BO: \"Bolivia, Plurinational State of\",\r\n            BQ: \"Bonaire, Sint Eustatius and Saba\",\r\n            BA: \"Bosnia and Herzegovina\",\r\n            BW: \"Botswana\",\r\n            BV: \"Bouvet Island\",\r\n            BR: \"Brazil\",\r\n            IO: \"British Indian Ocean Territory\",\r\n            BN: \"Brunei Darussalam\",\r\n            BG: \"Bulgaria\",\r\n            BF: \"Burkina Faso\",\r\n            BI: \"Burundi\",\r\n            KH: \"Cambodia\",\r\n            CM: \"Cameroon\",\r\n            CA: \"Canada\",\r\n            CV: \"Cape Verde\",\r\n            KY: \"Cayman Islands\",\r\n            CF: \"Central African Republic\",\r\n            TD: \"Chad\",\r\n            CL: \"Chile\",\r\n            CN: \"China\",\r\n            CX: \"Christmas Island\",\r\n            CC: \"Cocos (Keeling) Islands\",\r\n            CO: \"Colombia\",\r\n            KM: \"Comoros\",\r\n            CG: \"Congo\",\r\n            CD: \"Congo, the Democratic Republic of the\",\r\n            CK: \"Cook Islands\",\r\n            CR: \"Costa Rica\",\r\n            CI: \"Côte d'Ivoire\",\r\n            HR: \"Croatia\",\r\n            CU: \"Cuba\",\r\n            CW: \"Curaçao\",\r\n            CY: \"Cyprus\",\r\n            CZ: \"Czech Republic\",\r\n            DK: \"Denmark\",\r\n            DJ: \"Djibouti\",\r\n            DM: \"Dominica\",\r\n            DO: \"Dominican Republic\",\r\n            EC: \"Ecuador\",\r\n            EG: \"Egypt\",\r\n            SV: \"El Salvador\",\r\n            GQ: \"Equatorial Guinea\",\r\n            ER: \"Eritrea\",\r\n            EE: \"Estonia\",\r\n            ET: \"Ethiopia\",\r\n            FK: \"Falkland Islands (Malvinas)\",\r\n            FO: \"Faroe Islands\",\r\n            FJ: \"Fiji\",\r\n            FI: \"Finland\",\r\n            FR: \"France\",\r\n            GF: \"French Guiana\",\r\n            PF: \"French Polynesia\",\r\n            TF: \"French Southern Territories\",\r\n            GA: \"Gabon\",\r\n            GM: \"Gambia\",\r\n            GE: \"Georgia\",\r\n            DE: \"Germany\",\r\n            GH: \"Ghana\",\r\n            GI: \"Gibraltar\",\r\n            GR: \"Greece\",\r\n            GL: \"Greenland\",\r\n            GD: \"Grenada\",\r\n            GP: \"Guadeloupe\",\r\n            GU: \"Guam\",\r\n            GT: \"Guatemala\",\r\n            GG: \"Guernsey\",\r\n            GN: \"Guinea\",\r\n            GW: \"Guinea-Bissau\",\r\n            GY: \"Guyana\",\r\n            HT: \"Haiti\",\r\n            HM: \"Heard Island and McDonald Mcdonald Islands\",\r\n            VA: \"Holy See (Vatican City State)\",\r\n            HN: \"Honduras\",\r\n            HK: \"Hong Kong\",\r\n            HU: \"Hungary\",\r\n            IS: \"Iceland\",\r\n            IN: \"India\",\r\n            ID: \"Indonesia\",\r\n            IR: \"Iran, Islamic Republic of\",\r\n            IQ: \"Iraq\",\r\n            IE: \"Ireland\",\r\n            IM: \"Isle of Man\",\r\n            IL: \"Israel\",\r\n            IT: \"Italy\",\r\n            JM: \"Jamaica\",\r\n            JP: \"Japan\",\r\n            JE: \"Jersey\",\r\n            JO: \"Jordan\",\r\n            KZ: \"Kazakhstan\",\r\n            KE: \"Kenya\",\r\n            KI: \"Kiribati\",\r\n            KP: \"Korea, Democratic People's Republic of\",\r\n            KR: \"Korea, Republic of\",\r\n            KW: \"Kuwait\",\r\n            KG: \"Kyrgyzstan\",\r\n            LA: \"Lao People's Democratic Republic\",\r\n            LV: \"Latvia\",\r\n            LB: \"Lebanon\",\r\n            LS: \"Lesotho\",\r\n            LR: \"Liberia\",\r\n            LY: \"Libya\",\r\n            LI: \"Liechtenstein\",\r\n            LT: \"Lithuania\",\r\n            LU: \"Luxembourg\",\r\n            MO: \"Macao\",\r\n            MK: \"Macedonia, the Former Yugoslav Republic of\",\r\n            MG: \"Madagascar\",\r\n            MW: \"Malawi\",\r\n            MY: \"Malaysia\",\r\n            MV: \"Maldives\",\r\n            ML: \"Mali\",\r\n            MT: \"Malta\",\r\n            MH: \"Marshall Islands\",\r\n            MQ: \"Martinique\",\r\n            MR: \"Mauritania\",\r\n            MU: \"Mauritius\",\r\n            YT: \"Mayotte\",\r\n            MX: \"Mexico\",\r\n            FM: \"Micronesia, Federated States of\",\r\n            MD: \"Moldova, Republic of\",\r\n            MC: \"Monaco\",\r\n            MN: \"Mongolia\",\r\n            ME: \"Montenegro\",\r\n            MS: \"Montserrat\",\r\n            MA: \"Morocco\",\r\n            MZ: \"Mozambique\",\r\n            MM: \"Myanmar\",\r\n            NA: \"Namibia\",\r\n            NR: \"Nauru\",\r\n            NP: \"Nepal\",\r\n            NL: \"Netherlands\",\r\n            NC: \"New Caledonia\",\r\n            NZ: \"New Zealand\",\r\n            NI: \"Nicaragua\",\r\n            NE: \"Niger\",\r\n            NG: \"Nigeria\",\r\n            NU: \"Niue\",\r\n            NF: \"Norfolk Island\",\r\n            MP: \"Northern Mariana Islands\",\r\n            NO: \"Norway\",\r\n            OM: \"Oman\",\r\n            PK: \"Pakistan\",\r\n            PW: \"Palau\",\r\n            PS: \"Palestine, State of\",\r\n            PA: \"Panama\",\r\n            PG: \"Papua New Guinea\",\r\n            PY: \"Paraguay\",\r\n            PE: \"Peru\",\r\n            PH: \"Philippines\",\r\n            PN: \"Pitcairn\",\r\n            PL: \"Poland\",\r\n            PT: \"Portugal\",\r\n            PR: \"Puerto Rico\",\r\n            QA: \"Qatar\",\r\n            RE: \"Réunion\",\r\n            RO: \"Romania\",\r\n            RU: \"Russian Federation\",\r\n            RW: \"Rwanda\",\r\n            BL: \"Saint Barthélemy\",\r\n            SH: \"Saint Helena, Ascension and Tristan da Cunha\",\r\n            KN: \"Saint Kitts and Nevis\",\r\n            LC: \"Saint Lucia\",\r\n            MF: \"Saint Martin (French part)\",\r\n            PM: \"Saint Pierre and Miquelon\",\r\n            VC: \"Saint Vincent and the Grenadines\",\r\n            WS: \"Samoa\",\r\n            SM: \"San Marino\",\r\n            ST: \"Sao Tome and Principe\",\r\n            SA: \"Saudi Arabia\",\r\n            SN: \"Senegal\",\r\n            RS: \"Serbia\",\r\n            SC: \"Seychelles\",\r\n            SL: \"Sierra Leone\",\r\n            SG: \"Singapore\",\r\n            SX: \"Sint Maarten (Dutch part)\",\r\n            SK: \"Slovakia\",\r\n            SI: \"Slovenia\",\r\n            SB: \"Solomon Islands\",\r\n            SO: \"Somalia\",\r\n            ZA: \"South Africa\",\r\n            GS: \"South Georgia and the South Sandwich Islands\",\r\n            SS: \"South Sudan\",\r\n            ES: \"Spain\",\r\n            LK: \"Sri Lanka\",\r\n            SD: \"Sudan\",\r\n            SR: \"Suriname\",\r\n            SJ: \"Svalbard and Jan Mayen\",\r\n            SZ: \"Swaziland\",\r\n            SE: \"Sweden\",\r\n            CH: \"Switzerland\",\r\n            SY: \"Syrian Arab Republic\",\r\n            TW: \"Taiwan, Province of China\",\r\n            TJ: \"Tajikistan\",\r\n            TZ: \"Tanzania, United Republic of\",\r\n            TH: \"Thailand\",\r\n            TL: \"Timor-Leste\",\r\n            TG: \"Togo\",\r\n            TK: \"Tokelau\",\r\n            TO: \"Tonga\",\r\n            TT: \"Trinidad and Tobago\",\r\n            TN: \"Tunisia\",\r\n            TR: \"Turkey\",\r\n            TM: \"Turkmenistan\",\r\n            TC: \"Turks and Caicos Islands\",\r\n            TV: \"Tuvalu\",\r\n            UG: \"Uganda\",\r\n            UA: \"Ukraine\",\r\n            AE: \"United Arab Emirates\",\r\n            GB: \"United Kingdom\",\r\n            US: \"United States\",\r\n            UM: \"United States Minor Outlying Islands\",\r\n            UY: \"Uruguay\",\r\n            UZ: \"Uzbekistan\",\r\n            VU: \"Vanuatu\",\r\n            VE: \"Venezuela, Bolivarian Republic of\",\r\n            VN: \"Viet Nam\",\r\n            VG: \"Virgin Islands, British\",\r\n            VI: \"Virgin Islands, U.S.\",\r\n            WF: \"Wallis and Futuna\",\r\n            EH: \"Western Sahara\",\r\n            YE: \"Yemen\",\r\n            ZM: \"Zambia\",\r\n            ZW: \"Zimbabwe\"\r\n        };\r\n\r\n        return Iso31661a2;\r\n\r\n    })();\r\n\r\n    singleton = null;\r\n\r\n    module.exports = (function() {\r\n        return singleton != null ? singleton : singleton = new Iso31661a2();\r\n    })();\r\n\r\n}).call(this);\r\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/iso-3166-1-alpha-2/index.js?");
 
 /***/ }),
 
@@ -859,870 +353,7 @@ $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./no
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_RESULT__;(function(root, factory) {
-  if (true) {
-    !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() {
-      return (root.languageMappingList = factory());
-    }).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-  } else {}
-}(this, function() {
-  return {
-    'ach': {
-      nativeName: "Lwo",
-      englishName: "Acholi"
-    },
-    'ady': {
-      nativeName: "Адыгэбзэ",
-      englishName: "Adyghe"
-    },
-    'af': {
-      nativeName: "Afrikaans",
-      englishName: "Afrikaans"
-    },
-    'af-NA': {
-      nativeName: "Afrikaans (Namibia)",
-      englishName: "Afrikaans (Namibia)"
-    },
-    'af-ZA': {
-      nativeName: "Afrikaans (South Africa)",
-      englishName: "Afrikaans (South Africa)"
-    },
-    'ak': {
-      nativeName: "Tɕɥi",
-      englishName: "Akan"
-    },
-    'ar': {
-      nativeName: "العربية",
-      englishName: "Arabic"
-    },
-    'ar-AR': {
-      nativeName: "العربية",
-      englishName: "Arabic"
-    },
-    'ar-MA': {
-      nativeName: "العربية",
-      englishName: "Arabic (Morocco)"
-    },
-    'ar-SA': {
-      nativeName: "العربية (السعودية)",
-      englishName: "Arabic (Saudi Arabia)"
-    },
-    'ay-BO': {
-      nativeName: "Aymar aru",
-      englishName: "Aymara"
-    },
-    'az': {
-      nativeName: "Azərbaycan dili",
-      englishName: "Azerbaijani"
-    },
-    'az-AZ': {
-      nativeName: "Azərbaycan dili",
-      englishName: "Azerbaijani"
-    },
-    'be-BY': {
-      nativeName: "Беларуская",
-      englishName: "Belarusian"
-    },
-    'bg': {
-      nativeName: "Български",
-      englishName: "Bulgarian"
-    },
-    'bg-BG': {
-      nativeName: "Български",
-      englishName: "Bulgarian"
-    },
-    'bn': {
-      nativeName: "বাংলা",
-      englishName: "Bengali"
-    },
-    'bn-IN': {
-      nativeName: "বাংলা (ভারত)",
-      englishName: "Bengali (India)"
-    },
-    'bn-BD': {
-      nativeName: "বাংলা(বাংলাদেশ)",
-      englishName: "Bengali (Bangladesh)"
-    },
-    'bs-BA': {
-      nativeName: "Bosanski",
-      englishName: "Bosnian"
-    },
-    'ca': {
-      nativeName: "Català",
-      englishName: "Catalan"
-    },
-    'ca-ES': {
-      nativeName: "Català",
-      englishName: "Catalan"
-    },
-    'cak': {
-      nativeName: "Maya Kaqchikel",
-      englishName: "Kaqchikel"
-    },
-    'ck-US': {
-      nativeName: "ᏣᎳᎩ (tsalagi)",
-      englishName: "Cherokee"
-    },
-    'cs': {
-      nativeName: "Čeština",
-      englishName: "Czech"
-    },
-    'cs-CZ': {
-      nativeName: "Čeština",
-      englishName: "Czech"
-    },
-    'cy': {
-      nativeName: "Cymraeg",
-      englishName: "Welsh"
-    },
-    'cy-GB': {
-      nativeName: "Cymraeg",
-      englishName: "Welsh"
-    },
-    'da': {
-      nativeName: "Dansk",
-      englishName: "Danish"
-    },
-    'da-DK': {
-      nativeName: "Dansk",
-      englishName: "Danish"
-    },
-    'de': {
-      nativeName: "Deutsch",
-      englishName: "German"
-    },
-    'de-AT': {
-      nativeName: "Deutsch (Österreich)",
-      englishName: "German (Austria)"
-    },
-    'de-DE': {
-      nativeName: "Deutsch (Deutschland)",
-      englishName: "German (Germany)"
-    },
-    'de-CH': {
-      nativeName: "Deutsch (Schweiz)",
-      englishName: "German (Switzerland)"
-    },
-    'dsb': {
-      nativeName: "Dolnoserbšćina",
-      englishName: "Lower Sorbian"
-    },
-    'el': {
-      nativeName: "Ελληνικά",
-      englishName: "Greek"
-    },
-    'el-GR': {
-      nativeName: "Ελληνικά",
-      englishName: "Greek (Greece)"
-    },
-    'en': {
-      nativeName: "English",
-      englishName: "English"
-    },
-    'en-GB': {
-      nativeName: "English (UK)",
-      englishName: "English (UK)"
-    },
-    'en-AU': {
-      nativeName: "English (Australia)",
-      englishName: "English (Australia)"
-    },
-    'en-CA': {
-      nativeName: "English (Canada)",
-      englishName: "English (Canada)"
-    },
-    'en-IE': {
-      nativeName: "English (Ireland)",
-      englishName: "English (Ireland)"
-    },
-    'en-IN': {
-      nativeName: "English (India)",
-      englishName: "English (India)"
-    },
-    'en-PI': {
-      nativeName: "English (Pirate)",
-      englishName: "English (Pirate)"
-    },
-    'en-UD': {
-      nativeName: "English (Upside Down)",
-      englishName: "English (Upside Down)"
-    },
-    'en-US': {
-      nativeName: "English (US)",
-      englishName: "English (US)"
-    },
-    'en-ZA': {
-      nativeName: "English (South Africa)",
-      englishName: "English (South Africa)"
-    },
-    'en@pirate': {
-      nativeName: "English (Pirate)",
-      englishName: "English (Pirate)"
-    },
-    'eo': {
-      nativeName: "Esperanto",
-      englishName: "Esperanto"
-    },
-    'eo-EO': {
-      nativeName: "Esperanto",
-      englishName: "Esperanto"
-    },
-    'es': {
-      nativeName: "Español",
-      englishName: "Spanish"
-    },
-    'es-AR': {
-      nativeName: "Español (Argentine)",
-      englishName: "Spanish (Argentina)"
-    },
-    'es-419': {
-      nativeName: "Español (Latinoamérica)",
-      englishName: "Spanish (Latin America)"
-    },
-    'es-CL': {
-      nativeName: "Español (Chile)",
-      englishName: "Spanish (Chile)"
-    },
-    'es-CO': {
-      nativeName: "Español (Colombia)",
-      englishName: "Spanish (Colombia)"
-    },
-    'es-EC': {
-      nativeName: "Español (Ecuador)",
-      englishName: "Spanish (Ecuador)"
-    },
-    'es-ES': {
-      nativeName: "Español (España)",
-      englishName: "Spanish (Spain)"
-    },
-    'es-LA': {
-      nativeName: "Español (Latinoamérica)",
-      englishName: "Spanish (Latin America)"
-    },
-    'es-NI': {
-      nativeName: "Español (Nicaragua)",
-      englishName: "Spanish (Nicaragua)"
-    },
-    'es-MX': {
-      nativeName: "Español (México)",
-      englishName: "Spanish (Mexico)"
-    },
-    'es-US': {
-      nativeName: "Español (Estados Unidos)",
-      englishName: "Spanish (United States)"
-    },
-    'es-VE': {
-      nativeName: "Español (Venezuela)",
-      englishName: "Spanish (Venezuela)"
-    },
-    'et': {
-      nativeName: "eesti keel",
-      englishName: "Estonian"
-    },
-    'et-EE': {
-      nativeName: "Eesti (Estonia)",
-      englishName: "Estonian (Estonia)"
-    },
-    'eu': {
-      nativeName: "Euskara",
-      englishName: "Basque"
-    },
-    'eu-ES': {
-      nativeName: "Euskara",
-      englishName: "Basque"
-    },
-    'fa': {
-      nativeName: "فارسی",
-      englishName: "Persian"
-    },
-    'fa-IR': {
-      nativeName: "فارسی",
-      englishName: "Persian"
-    },
-    'fb-LT': {
-      nativeName: "Leet Speak",
-      englishName: "Leet"
-    },
-    'ff': {
-      nativeName: "Fulah",
-      englishName: "Fulah"
-    },
-    'fi': {
-      nativeName: "Suomi",
-      englishName: "Finnish"
-    },
-    'fi-FI': {
-      nativeName: "Suomi",
-      englishName: "Finnish"
-    },
-    'fo-FO': {
-      nativeName: "Føroyskt",
-      englishName: "Faroese"
-    },
-    'fr': {
-      nativeName: "Français",
-      englishName: "French"
-    },
-    'fr-CA': {
-      nativeName: "Français (Canada)",
-      englishName: "French (Canada)"
-    },
-    'fr-FR': {
-      nativeName: "Français (France)",
-      englishName: "French (France)"
-    },
-    'fr-BE': {
-      nativeName: "Français (Belgique)",
-      englishName: "French (Belgium)"
-    },
-    'fr-CH': {
-      nativeName: "Français (Suisse)",
-      englishName: "French (Switzerland)"
-    },
-    'fy-NL': {
-      nativeName: "Frysk",
-      englishName: "Frisian (West)"
-    },
-    'ga': {
-      nativeName: "Gaeilge",
-      englishName: "Irish"
-    },
-    'ga-IE': {
-      nativeName: "Gaeilge (Gaelic)",
-      englishName: "Irish (Gaelic)"
-    },
-    'gl': {
-      nativeName: "Galego",
-      englishName: "Galician"
-    },
-    'gl-ES': {
-      nativeName: "Galego",
-      englishName: "Galician"
-    },
-    'gn-PY': {
-      nativeName: "Avañe'ẽ",
-      englishName: "Guarani"
-    },
-    'gu-IN': {
-      nativeName: "ગુજરાતી",
-      englishName: "Gujarati"
-    },
-    'gx-GR': {
-      nativeName: "Ἑλληνική ἀρχαία",
-      englishName: "Classical Greek"
-    },
-    'he': {
-      nativeName: "עברית‏",
-      englishName: "Hebrew"
-    },
-    'he-IL': {
-      nativeName: "עברית‏",
-      englishName: "Hebrew"
-    },
-    'hi': {
-      nativeName: "हिन्दी",
-      englishName: "Hindi"
-    },
-    'hi-IN': {
-      nativeName: "हिन्दी",
-      englishName: "Hindi"
-    },
-    'hr': {
-      nativeName: "Hrvatski",
-      englishName: "Croatian"
-    },
-    'hr-HR': {
-      nativeName: "Hrvatski",
-      englishName: "Croatian"
-    },
-    'hsb': {
-      nativeName: "Hornjoserbšćina",
-      englishName: "Upper Sorbian"
-    },
-    'ht': {
-      nativeName: "Kreyòl",
-      englishName: "Haitian Creole"
-    },
-    'hu': {
-      nativeName: "Magyar",
-      englishName: "Hungarian"
-    },
-    'hu-HU': {
-      nativeName: "Magyar",
-      englishName: "Hungarian"
-    },
-    'hy-AM': {
-      nativeName: "Հայերեն",
-      englishName: "Armenian"
-    },
-    'id': {
-      nativeName: "Bahasa Indonesia",
-      englishName: "Indonesian"
-    },
-    'id-ID': {
-      nativeName: "Bahasa Indonesia",
-      englishName: "Indonesian"
-    },
-    'is': {
-      nativeName: "Íslenska",
-      englishName: "Icelandic"
-    },
-    'is-IS': {
-      nativeName: "Íslenska (Iceland)",
-      englishName: "Icelandic (Iceland)"
-    },
-    'it': {
-      nativeName: "Italiano",
-      englishName: "Italian"
-    },
-    'it-IT': {
-      nativeName: "Italiano",
-      englishName: "Italian"
-    },
-    'ja': {
-      nativeName: "日本語",
-      englishName: "Japanese"
-    },
-    'ja-JP': {
-      nativeName: "日本語",
-      englishName: "Japanese"
-    },
-    'jv-ID': {
-      nativeName: "Basa Jawa",
-      englishName: "Javanese"
-    },
-    'ka-GE': {
-      nativeName: "ქართული",
-      englishName: "Georgian"
-    },
-    'kk-KZ': {
-      nativeName: "Қазақша",
-      englishName: "Kazakh"
-    },
-    'km': {
-      nativeName: "ភាសាខ្មែរ",
-      englishName: "Khmer"
-    },
-    'km-KH': {
-      nativeName: "ភាសាខ្មែរ",
-      englishName: "Khmer"
-    },
-    'kab': {
-      nativeName: "Taqbaylit",
-      englishName: "Kabyle"
-    },
-    'kn': {
-      nativeName: "ಕನ್ನಡ",
-      englishName: "Kannada"
-    },
-    'kn-IN': {
-      nativeName: "ಕನ್ನಡ (India)",
-      englishName: "Kannada (India)"
-    },
-    'ko': {
-      nativeName: "한국어",
-      englishName: "Korean"
-    },
-    'ko-KR': {
-      nativeName: "한국어 (韩国)",
-      englishName: "Korean (Korea)"
-    },
-    'ku-TR': {
-      nativeName: "Kurdî",
-      englishName: "Kurdish"
-    },
-    'la': {
-      nativeName: "Latin",
-      englishName: "Latin"
-    },
-    'la-VA': {
-      nativeName: "Latin",
-      englishName: "Latin"
-    },
-    'lb': {
-      nativeName: "Lëtzebuergesch",
-      englishName: "Luxembourgish"
-    },
-    'li-NL': {
-      nativeName: "Lèmbörgs",
-      englishName: "Limburgish"
-    },
-    'lt': {
-      nativeName: "Lietuvių",
-      englishName: "Lithuanian"
-    },
-    'lt-LT': {
-      nativeName: "Lietuvių",
-      englishName: "Lithuanian"
-    },
-    'lv': {
-      nativeName: "Latviešu",
-      englishName: "Latvian"
-    },
-    'lv-LV': {
-      nativeName: "Latviešu",
-      englishName: "Latvian"
-    },
-    'mai': {
-      nativeName: "मैथिली, মৈথিলী",
-      englishName: "Maithili"
-    },
-    'mg-MG': {
-      nativeName: "Malagasy",
-      englishName: "Malagasy"
-    },
-    'mk': {
-      nativeName: "Македонски",
-      englishName: "Macedonian"
-    },
-    'mk-MK': {
-      nativeName: "Македонски (Македонски)",
-      englishName: "Macedonian (Macedonian)"
-    },
-    'ml': {
-      nativeName: "മലയാളം",
-      englishName: "Malayalam"
-    },
-    'ml-IN': {
-      nativeName: "മലയാളം",
-      englishName: "Malayalam"
-    },
-    'mn-MN': {
-      nativeName: "Монгол",
-      englishName: "Mongolian"
-    },
-    'mr': {
-      nativeName: "मराठी",
-      englishName: "Marathi"
-    },
-    'mr-IN': {
-      nativeName: "मराठी",
-      englishName: "Marathi"
-    },
-    'ms': {
-      nativeName: "Bahasa Melayu",
-      englishName: "Malay"
-    },
-    'ms-MY': {
-      nativeName: "Bahasa Melayu",
-      englishName: "Malay"
-    },
-    'mt': {
-      nativeName: "Malti",
-      englishName: "Maltese"
-    },
-    'mt-MT': {
-      nativeName: "Malti",
-      englishName: "Maltese"
-    },
-    'my': {
-      nativeName: "ဗမာစကာ",
-      englishName: "Burmese"
-    },
-    'no': {
-      nativeName: "Norsk",
-      englishName: "Norwegian"
-    },
-    'nb': {
-      nativeName: "Norsk (bokmål)",
-      englishName: "Norwegian (bokmal)"
-    },
-    'nb-NO': {
-      nativeName: "Norsk (bokmål)",
-      englishName: "Norwegian (bokmal)"
-    },
-    'ne': {
-      nativeName: "नेपाली",
-      englishName: "Nepali"
-    },
-    'ne-NP': {
-      nativeName: "नेपाली",
-      englishName: "Nepali"
-    },
-    'nl': {
-      nativeName: "Nederlands",
-      englishName: "Dutch"
-    },
-    'nl-BE': {
-      nativeName: "Nederlands (België)",
-      englishName: "Dutch (Belgium)"
-    },
-    'nl-NL': {
-      nativeName: "Nederlands (Nederland)",
-      englishName: "Dutch (Netherlands)"
-    },
-    'nn-NO': {
-      nativeName: "Norsk (nynorsk)",
-      englishName: "Norwegian (nynorsk)"
-    },
-    'oc': {
-      nativeName: "Occitan",
-      englishName: "Occitan"
-    },
-    'or-IN': {
-      nativeName: "ଓଡ଼ିଆ",
-      englishName: "Oriya"
-    },
-    'pa': {
-      nativeName: "ਪੰਜਾਬੀ",
-      englishName: "Punjabi"
-    },
-    'pa-IN': {
-      nativeName: "ਪੰਜਾਬੀ (ਭਾਰਤ ਨੂੰ)",
-      englishName: "Punjabi (India)"
-    },
-    'pl': {
-      nativeName: "Polski",
-      englishName: "Polish"
-    },
-    'pl-PL': {
-      nativeName: "Polski",
-      englishName: "Polish"
-    },
-    'ps-AF': {
-      nativeName: "پښتو",
-      englishName: "Pashto"
-    },
-    'pt': {
-      nativeName: "Português",
-      englishName: "Portuguese"
-    },
-    'pt-BR': {
-      nativeName: "Português (Brasil)",
-      englishName: "Portuguese (Brazil)"
-    },
-    'pt-PT': {
-      nativeName: "Português (Portugal)",
-      englishName: "Portuguese (Portugal)"
-    },
-    'qu-PE': {
-      nativeName: "Qhichwa",
-      englishName: "Quechua"
-    },
-    'rm-CH': {
-      nativeName: "Rumantsch",
-      englishName: "Romansh"
-    },
-    'ro': {
-      nativeName: "Română",
-      englishName: "Romanian"
-    },
-    'ro-RO': {
-      nativeName: "Română",
-      englishName: "Romanian"
-    },
-    'ru': {
-      nativeName: "Русский",
-      englishName: "Russian"
-    },
-    'ru-RU': {
-      nativeName: "Русский",
-      englishName: "Russian"
-    },
-    'sa-IN': {
-      nativeName: "संस्कृतम्",
-      englishName: "Sanskrit"
-    },
-    'se-NO': {
-      nativeName: "Davvisámegiella",
-      englishName: "Northern Sámi"
-    },
-    'si-LK': {
-      nativeName: "පළාත",
-      englishName: "Sinhala (Sri Lanka)"
-    },
-    'sk': {
-      nativeName: "Slovenčina",
-      englishName: "Slovak"
-    },
-    'sk-SK': {
-      nativeName: "Slovenčina (Slovakia)",
-      englishName: "Slovak (Slovakia)"
-    },
-    'sl': {
-      nativeName: "Slovenščina",
-      englishName: "Slovenian"
-    },
-    'sl-SI': {
-      nativeName: "Slovenščina",
-      englishName: "Slovenian"
-    },
-    'so-SO': {
-      nativeName: "Soomaaliga",
-      englishName: "Somali"
-    },
-    'sq': {
-      nativeName: "Shqip",
-      englishName: "Albanian"
-    },
-    'sq-AL': {
-      nativeName: "Shqip",
-      englishName: "Albanian"
-    },
-    'sr': {
-      nativeName: "Српски",
-      englishName: "Serbian"
-    },
-    'sr-RS': {
-      nativeName: "Српски (Serbia)",
-      englishName: "Serbian (Serbia)"
-    },
-    'su': {
-      nativeName: "Basa Sunda",
-      englishName: "Sundanese"
-    },
-    'sv': {
-      nativeName: "Svenska",
-      englishName: "Swedish"
-    },
-    'sv-SE': {
-      nativeName: "Svenska",
-      englishName: "Swedish"
-    },
-    'sw': {
-      nativeName: "Kiswahili",
-      englishName: "Swahili"
-    },
-    'sw-KE': {
-      nativeName: "Kiswahili",
-      englishName: "Swahili (Kenya)"
-    },
-    'ta': {
-      nativeName: "தமிழ்",
-      englishName: "Tamil"
-    },
-    'ta-IN': {
-      nativeName: "தமிழ்",
-      englishName: "Tamil"
-    },
-    'te': {
-      nativeName: "తెలుగు",
-      englishName: "Telugu"
-    },
-    'te-IN': {
-      nativeName: "తెలుగు",
-      englishName: "Telugu"
-    },
-    'tg': {
-      nativeName: "забо́ни тоҷикӣ́",
-      englishName: "Tajik"
-    },
-    'tg-TJ': {
-      nativeName: "тоҷикӣ",
-      englishName: "Tajik"
-    },
-    'th': {
-      nativeName: "ภาษาไทย",
-      englishName: "Thai"
-    },
-    'th-TH': {
-      nativeName: "ภาษาไทย (ประเทศไทย)",
-      englishName: "Thai (Thailand)"
-    },
-    'tl': {
-      nativeName: "Filipino",
-      englishName: "Filipino"
-    },
-    'tl-PH': {
-      nativeName: "Filipino",
-      englishName: "Filipino"
-    },
-    'tlh': {
-      nativeName: "tlhIngan-Hol",
-      englishName: "Klingon"
-    },
-    'tr': {
-      nativeName: "Türkçe",
-      englishName: "Turkish"
-    },
-    'tr-TR': {
-      nativeName: "Türkçe",
-      englishName: "Turkish"
-    },
-    'tt-RU': {
-      nativeName: "татарча",
-      englishName: "Tatar"
-    },
-    'uk': {
-      nativeName: "Українська",
-      englishName: "Ukrainian"
-    },
-    'uk-UA': {
-      nativeName: "Українська",
-      englishName: "Ukrainian"
-    },
-    'ur': {
-      nativeName: "اردو",
-      englishName: "Urdu"
-    },
-    'ur-PK': {
-      nativeName: "اردو",
-      englishName: "Urdu"
-    },
-    'uz': {
-      nativeName: "O'zbek",
-      englishName: "Uzbek"
-    },
-    'uz-UZ': {
-      nativeName: "O'zbek",
-      englishName: "Uzbek"
-    },
-    'vi': {
-      nativeName: "Tiếng Việt",
-      englishName: "Vietnamese"
-    },
-    'vi-VN': {
-      nativeName: "Tiếng Việt",
-      englishName: "Vietnamese"
-    },
-    'xh-ZA': {
-      nativeName: "isiXhosa",
-      englishName: "Xhosa"
-    },
-    'yi': {
-      nativeName: "ייִדיש",
-      englishName: "Yiddish"
-    },
-    'yi-DE': {
-      nativeName: "ייִדיש (German)",
-      englishName: "Yiddish (German)"
-    },
-    'zh': {
-      nativeName: "中文",
-      englishName: "Chinese"
-    },
-    'zh-Hans': {
-      nativeName: "中文简体",
-      englishName: "Chinese Simplified"
-    },
-    'zh-Hant': {
-      nativeName: "中文繁體",
-      englishName: "Chinese Traditional"
-    },
-    'zh-CN': {
-      nativeName: "中文（中国）",
-      englishName: "Chinese Simplified (China)"
-    },
-    'zh-HK': {
-      nativeName: "中文（香港）",
-      englishName: "Chinese Traditional (Hong Kong)"
-    },
-    'zh-SG': {
-      nativeName: "中文（新加坡）",
-      englishName: "Chinese Simplified (Singapore)"
-    },
-    'zh-TW': {
-      nativeName: "中文（台灣）",
-      englishName: "Chinese Traditional (Taiwan)"
-    },
-    'zu-ZA': {
-      nativeName: "isiZulu",
-      englishName: "Zulu"
-    }
-  };
-}));
-
+eval("var __WEBPACK_AMD_DEFINE_RESULT__;(function(root, factory) {\n  if (true) {\n    !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() {\n      return (root.languageMappingList = factory());\n    }).call(exports, __webpack_require__, exports, module),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));\n  } else {}\n}(this, function() {\n  return {\n    'ach': {\n      nativeName: \"Lwo\",\n      englishName: \"Acholi\"\n    },\n    'ady': {\n      nativeName: \"Адыгэбзэ\",\n      englishName: \"Adyghe\"\n    },\n    'af': {\n      nativeName: \"Afrikaans\",\n      englishName: \"Afrikaans\"\n    },\n    'af-NA': {\n      nativeName: \"Afrikaans (Namibia)\",\n      englishName: \"Afrikaans (Namibia)\"\n    },\n    'af-ZA': {\n      nativeName: \"Afrikaans (South Africa)\",\n      englishName: \"Afrikaans (South Africa)\"\n    },\n    'ak': {\n      nativeName: \"Tɕɥi\",\n      englishName: \"Akan\"\n    },\n    'ar': {\n      nativeName: \"العربية\",\n      englishName: \"Arabic\"\n    },\n    'ar-AR': {\n      nativeName: \"العربية\",\n      englishName: \"Arabic\"\n    },\n    'ar-MA': {\n      nativeName: \"العربية\",\n      englishName: \"Arabic (Morocco)\"\n    },\n    'ar-SA': {\n      nativeName: \"العربية (السعودية)\",\n      englishName: \"Arabic (Saudi Arabia)\"\n    },\n    'ay-BO': {\n      nativeName: \"Aymar aru\",\n      englishName: \"Aymara\"\n    },\n    'az': {\n      nativeName: \"Azərbaycan dili\",\n      englishName: \"Azerbaijani\"\n    },\n    'az-AZ': {\n      nativeName: \"Azərbaycan dili\",\n      englishName: \"Azerbaijani\"\n    },\n    'be-BY': {\n      nativeName: \"Беларуская\",\n      englishName: \"Belarusian\"\n    },\n    'bg': {\n      nativeName: \"Български\",\n      englishName: \"Bulgarian\"\n    },\n    'bg-BG': {\n      nativeName: \"Български\",\n      englishName: \"Bulgarian\"\n    },\n    'bn': {\n      nativeName: \"বাংলা\",\n      englishName: \"Bengali\"\n    },\n    'bn-IN': {\n      nativeName: \"বাংলা (ভারত)\",\n      englishName: \"Bengali (India)\"\n    },\n    'bn-BD': {\n      nativeName: \"বাংলা(বাংলাদেশ)\",\n      englishName: \"Bengali (Bangladesh)\"\n    },\n    'bs-BA': {\n      nativeName: \"Bosanski\",\n      englishName: \"Bosnian\"\n    },\n    'ca': {\n      nativeName: \"Català\",\n      englishName: \"Catalan\"\n    },\n    'ca-ES': {\n      nativeName: \"Català\",\n      englishName: \"Catalan\"\n    },\n    'cak': {\n      nativeName: \"Maya Kaqchikel\",\n      englishName: \"Kaqchikel\"\n    },\n    'ck-US': {\n      nativeName: \"ᏣᎳᎩ (tsalagi)\",\n      englishName: \"Cherokee\"\n    },\n    'cs': {\n      nativeName: \"Čeština\",\n      englishName: \"Czech\"\n    },\n    'cs-CZ': {\n      nativeName: \"Čeština\",\n      englishName: \"Czech\"\n    },\n    'cy': {\n      nativeName: \"Cymraeg\",\n      englishName: \"Welsh\"\n    },\n    'cy-GB': {\n      nativeName: \"Cymraeg\",\n      englishName: \"Welsh\"\n    },\n    'da': {\n      nativeName: \"Dansk\",\n      englishName: \"Danish\"\n    },\n    'da-DK': {\n      nativeName: \"Dansk\",\n      englishName: \"Danish\"\n    },\n    'de': {\n      nativeName: \"Deutsch\",\n      englishName: \"German\"\n    },\n    'de-AT': {\n      nativeName: \"Deutsch (Österreich)\",\n      englishName: \"German (Austria)\"\n    },\n    'de-DE': {\n      nativeName: \"Deutsch (Deutschland)\",\n      englishName: \"German (Germany)\"\n    },\n    'de-CH': {\n      nativeName: \"Deutsch (Schweiz)\",\n      englishName: \"German (Switzerland)\"\n    },\n    'dsb': {\n      nativeName: \"Dolnoserbšćina\",\n      englishName: \"Lower Sorbian\"\n    },\n    'el': {\n      nativeName: \"Ελληνικά\",\n      englishName: \"Greek\"\n    },\n    'el-GR': {\n      nativeName: \"Ελληνικά\",\n      englishName: \"Greek (Greece)\"\n    },\n    'en': {\n      nativeName: \"English\",\n      englishName: \"English\"\n    },\n    'en-GB': {\n      nativeName: \"English (UK)\",\n      englishName: \"English (UK)\"\n    },\n    'en-AU': {\n      nativeName: \"English (Australia)\",\n      englishName: \"English (Australia)\"\n    },\n    'en-CA': {\n      nativeName: \"English (Canada)\",\n      englishName: \"English (Canada)\"\n    },\n    'en-IE': {\n      nativeName: \"English (Ireland)\",\n      englishName: \"English (Ireland)\"\n    },\n    'en-IN': {\n      nativeName: \"English (India)\",\n      englishName: \"English (India)\"\n    },\n    'en-PI': {\n      nativeName: \"English (Pirate)\",\n      englishName: \"English (Pirate)\"\n    },\n    'en-UD': {\n      nativeName: \"English (Upside Down)\",\n      englishName: \"English (Upside Down)\"\n    },\n    'en-US': {\n      nativeName: \"English (US)\",\n      englishName: \"English (US)\"\n    },\n    'en-ZA': {\n      nativeName: \"English (South Africa)\",\n      englishName: \"English (South Africa)\"\n    },\n    'en@pirate': {\n      nativeName: \"English (Pirate)\",\n      englishName: \"English (Pirate)\"\n    },\n    'eo': {\n      nativeName: \"Esperanto\",\n      englishName: \"Esperanto\"\n    },\n    'eo-EO': {\n      nativeName: \"Esperanto\",\n      englishName: \"Esperanto\"\n    },\n    'es': {\n      nativeName: \"Español\",\n      englishName: \"Spanish\"\n    },\n    'es-AR': {\n      nativeName: \"Español (Argentine)\",\n      englishName: \"Spanish (Argentina)\"\n    },\n    'es-419': {\n      nativeName: \"Español (Latinoamérica)\",\n      englishName: \"Spanish (Latin America)\"\n    },\n    'es-CL': {\n      nativeName: \"Español (Chile)\",\n      englishName: \"Spanish (Chile)\"\n    },\n    'es-CO': {\n      nativeName: \"Español (Colombia)\",\n      englishName: \"Spanish (Colombia)\"\n    },\n    'es-EC': {\n      nativeName: \"Español (Ecuador)\",\n      englishName: \"Spanish (Ecuador)\"\n    },\n    'es-ES': {\n      nativeName: \"Español (España)\",\n      englishName: \"Spanish (Spain)\"\n    },\n    'es-LA': {\n      nativeName: \"Español (Latinoamérica)\",\n      englishName: \"Spanish (Latin America)\"\n    },\n    'es-NI': {\n      nativeName: \"Español (Nicaragua)\",\n      englishName: \"Spanish (Nicaragua)\"\n    },\n    'es-MX': {\n      nativeName: \"Español (México)\",\n      englishName: \"Spanish (Mexico)\"\n    },\n    'es-US': {\n      nativeName: \"Español (Estados Unidos)\",\n      englishName: \"Spanish (United States)\"\n    },\n    'es-VE': {\n      nativeName: \"Español (Venezuela)\",\n      englishName: \"Spanish (Venezuela)\"\n    },\n    'et': {\n      nativeName: \"eesti keel\",\n      englishName: \"Estonian\"\n    },\n    'et-EE': {\n      nativeName: \"Eesti (Estonia)\",\n      englishName: \"Estonian (Estonia)\"\n    },\n    'eu': {\n      nativeName: \"Euskara\",\n      englishName: \"Basque\"\n    },\n    'eu-ES': {\n      nativeName: \"Euskara\",\n      englishName: \"Basque\"\n    },\n    'fa': {\n      nativeName: \"فارسی\",\n      englishName: \"Persian\"\n    },\n    'fa-IR': {\n      nativeName: \"فارسی\",\n      englishName: \"Persian\"\n    },\n    'fb-LT': {\n      nativeName: \"Leet Speak\",\n      englishName: \"Leet\"\n    },\n    'ff': {\n      nativeName: \"Fulah\",\n      englishName: \"Fulah\"\n    },\n    'fi': {\n      nativeName: \"Suomi\",\n      englishName: \"Finnish\"\n    },\n    'fi-FI': {\n      nativeName: \"Suomi\",\n      englishName: \"Finnish\"\n    },\n    'fo-FO': {\n      nativeName: \"Føroyskt\",\n      englishName: \"Faroese\"\n    },\n    'fr': {\n      nativeName: \"Français\",\n      englishName: \"French\"\n    },\n    'fr-CA': {\n      nativeName: \"Français (Canada)\",\n      englishName: \"French (Canada)\"\n    },\n    'fr-FR': {\n      nativeName: \"Français (France)\",\n      englishName: \"French (France)\"\n    },\n    'fr-BE': {\n      nativeName: \"Français (Belgique)\",\n      englishName: \"French (Belgium)\"\n    },\n    'fr-CH': {\n      nativeName: \"Français (Suisse)\",\n      englishName: \"French (Switzerland)\"\n    },\n    'fy-NL': {\n      nativeName: \"Frysk\",\n      englishName: \"Frisian (West)\"\n    },\n    'ga': {\n      nativeName: \"Gaeilge\",\n      englishName: \"Irish\"\n    },\n    'ga-IE': {\n      nativeName: \"Gaeilge (Gaelic)\",\n      englishName: \"Irish (Gaelic)\"\n    },\n    'gl': {\n      nativeName: \"Galego\",\n      englishName: \"Galician\"\n    },\n    'gl-ES': {\n      nativeName: \"Galego\",\n      englishName: \"Galician\"\n    },\n    'gn-PY': {\n      nativeName: \"Avañe'ẽ\",\n      englishName: \"Guarani\"\n    },\n    'gu-IN': {\n      nativeName: \"ગુજરાતી\",\n      englishName: \"Gujarati\"\n    },\n    'gx-GR': {\n      nativeName: \"Ἑλληνική ἀρχαία\",\n      englishName: \"Classical Greek\"\n    },\n    'he': {\n      nativeName: \"עברית‏\",\n      englishName: \"Hebrew\"\n    },\n    'he-IL': {\n      nativeName: \"עברית‏\",\n      englishName: \"Hebrew\"\n    },\n    'hi': {\n      nativeName: \"हिन्दी\",\n      englishName: \"Hindi\"\n    },\n    'hi-IN': {\n      nativeName: \"हिन्दी\",\n      englishName: \"Hindi\"\n    },\n    'hr': {\n      nativeName: \"Hrvatski\",\n      englishName: \"Croatian\"\n    },\n    'hr-HR': {\n      nativeName: \"Hrvatski\",\n      englishName: \"Croatian\"\n    },\n    'hsb': {\n      nativeName: \"Hornjoserbšćina\",\n      englishName: \"Upper Sorbian\"\n    },\n    'ht': {\n      nativeName: \"Kreyòl\",\n      englishName: \"Haitian Creole\"\n    },\n    'hu': {\n      nativeName: \"Magyar\",\n      englishName: \"Hungarian\"\n    },\n    'hu-HU': {\n      nativeName: \"Magyar\",\n      englishName: \"Hungarian\"\n    },\n    'hy-AM': {\n      nativeName: \"Հայերեն\",\n      englishName: \"Armenian\"\n    },\n    'id': {\n      nativeName: \"Bahasa Indonesia\",\n      englishName: \"Indonesian\"\n    },\n    'id-ID': {\n      nativeName: \"Bahasa Indonesia\",\n      englishName: \"Indonesian\"\n    },\n    'is': {\n      nativeName: \"Íslenska\",\n      englishName: \"Icelandic\"\n    },\n    'is-IS': {\n      nativeName: \"Íslenska (Iceland)\",\n      englishName: \"Icelandic (Iceland)\"\n    },\n    'it': {\n      nativeName: \"Italiano\",\n      englishName: \"Italian\"\n    },\n    'it-IT': {\n      nativeName: \"Italiano\",\n      englishName: \"Italian\"\n    },\n    'ja': {\n      nativeName: \"日本語\",\n      englishName: \"Japanese\"\n    },\n    'ja-JP': {\n      nativeName: \"日本語\",\n      englishName: \"Japanese\"\n    },\n    'jv-ID': {\n      nativeName: \"Basa Jawa\",\n      englishName: \"Javanese\"\n    },\n    'ka-GE': {\n      nativeName: \"ქართული\",\n      englishName: \"Georgian\"\n    },\n    'kk-KZ': {\n      nativeName: \"Қазақша\",\n      englishName: \"Kazakh\"\n    },\n    'km': {\n      nativeName: \"ភាសាខ្មែរ\",\n      englishName: \"Khmer\"\n    },\n    'km-KH': {\n      nativeName: \"ភាសាខ្មែរ\",\n      englishName: \"Khmer\"\n    },\n    'kab': {\n      nativeName: \"Taqbaylit\",\n      englishName: \"Kabyle\"\n    },\n    'kn': {\n      nativeName: \"ಕನ್ನಡ\",\n      englishName: \"Kannada\"\n    },\n    'kn-IN': {\n      nativeName: \"ಕನ್ನಡ (India)\",\n      englishName: \"Kannada (India)\"\n    },\n    'ko': {\n      nativeName: \"한국어\",\n      englishName: \"Korean\"\n    },\n    'ko-KR': {\n      nativeName: \"한국어 (韩国)\",\n      englishName: \"Korean (Korea)\"\n    },\n    'ku-TR': {\n      nativeName: \"Kurdî\",\n      englishName: \"Kurdish\"\n    },\n    'la': {\n      nativeName: \"Latin\",\n      englishName: \"Latin\"\n    },\n    'la-VA': {\n      nativeName: \"Latin\",\n      englishName: \"Latin\"\n    },\n    'lb': {\n      nativeName: \"Lëtzebuergesch\",\n      englishName: \"Luxembourgish\"\n    },\n    'li-NL': {\n      nativeName: \"Lèmbörgs\",\n      englishName: \"Limburgish\"\n    },\n    'lt': {\n      nativeName: \"Lietuvių\",\n      englishName: \"Lithuanian\"\n    },\n    'lt-LT': {\n      nativeName: \"Lietuvių\",\n      englishName: \"Lithuanian\"\n    },\n    'lv': {\n      nativeName: \"Latviešu\",\n      englishName: \"Latvian\"\n    },\n    'lv-LV': {\n      nativeName: \"Latviešu\",\n      englishName: \"Latvian\"\n    },\n    'mai': {\n      nativeName: \"मैथिली, মৈথিলী\",\n      englishName: \"Maithili\"\n    },\n    'mg-MG': {\n      nativeName: \"Malagasy\",\n      englishName: \"Malagasy\"\n    },\n    'mk': {\n      nativeName: \"Македонски\",\n      englishName: \"Macedonian\"\n    },\n    'mk-MK': {\n      nativeName: \"Македонски (Македонски)\",\n      englishName: \"Macedonian (Macedonian)\"\n    },\n    'ml': {\n      nativeName: \"മലയാളം\",\n      englishName: \"Malayalam\"\n    },\n    'ml-IN': {\n      nativeName: \"മലയാളം\",\n      englishName: \"Malayalam\"\n    },\n    'mn-MN': {\n      nativeName: \"Монгол\",\n      englishName: \"Mongolian\"\n    },\n    'mr': {\n      nativeName: \"मराठी\",\n      englishName: \"Marathi\"\n    },\n    'mr-IN': {\n      nativeName: \"मराठी\",\n      englishName: \"Marathi\"\n    },\n    'ms': {\n      nativeName: \"Bahasa Melayu\",\n      englishName: \"Malay\"\n    },\n    'ms-MY': {\n      nativeName: \"Bahasa Melayu\",\n      englishName: \"Malay\"\n    },\n    'mt': {\n      nativeName: \"Malti\",\n      englishName: \"Maltese\"\n    },\n    'mt-MT': {\n      nativeName: \"Malti\",\n      englishName: \"Maltese\"\n    },\n    'my': {\n      nativeName: \"ဗမာစကာ\",\n      englishName: \"Burmese\"\n    },\n    'no': {\n      nativeName: \"Norsk\",\n      englishName: \"Norwegian\"\n    },\n    'nb': {\n      nativeName: \"Norsk (bokmål)\",\n      englishName: \"Norwegian (bokmal)\"\n    },\n    'nb-NO': {\n      nativeName: \"Norsk (bokmål)\",\n      englishName: \"Norwegian (bokmal)\"\n    },\n    'ne': {\n      nativeName: \"नेपाली\",\n      englishName: \"Nepali\"\n    },\n    'ne-NP': {\n      nativeName: \"नेपाली\",\n      englishName: \"Nepali\"\n    },\n    'nl': {\n      nativeName: \"Nederlands\",\n      englishName: \"Dutch\"\n    },\n    'nl-BE': {\n      nativeName: \"Nederlands (België)\",\n      englishName: \"Dutch (Belgium)\"\n    },\n    'nl-NL': {\n      nativeName: \"Nederlands (Nederland)\",\n      englishName: \"Dutch (Netherlands)\"\n    },\n    'nn-NO': {\n      nativeName: \"Norsk (nynorsk)\",\n      englishName: \"Norwegian (nynorsk)\"\n    },\n    'oc': {\n      nativeName: \"Occitan\",\n      englishName: \"Occitan\"\n    },\n    'or-IN': {\n      nativeName: \"ଓଡ଼ିଆ\",\n      englishName: \"Oriya\"\n    },\n    'pa': {\n      nativeName: \"ਪੰਜਾਬੀ\",\n      englishName: \"Punjabi\"\n    },\n    'pa-IN': {\n      nativeName: \"ਪੰਜਾਬੀ (ਭਾਰਤ ਨੂੰ)\",\n      englishName: \"Punjabi (India)\"\n    },\n    'pl': {\n      nativeName: \"Polski\",\n      englishName: \"Polish\"\n    },\n    'pl-PL': {\n      nativeName: \"Polski\",\n      englishName: \"Polish\"\n    },\n    'ps-AF': {\n      nativeName: \"پښتو\",\n      englishName: \"Pashto\"\n    },\n    'pt': {\n      nativeName: \"Português\",\n      englishName: \"Portuguese\"\n    },\n    'pt-BR': {\n      nativeName: \"Português (Brasil)\",\n      englishName: \"Portuguese (Brazil)\"\n    },\n    'pt-PT': {\n      nativeName: \"Português (Portugal)\",\n      englishName: \"Portuguese (Portugal)\"\n    },\n    'qu-PE': {\n      nativeName: \"Qhichwa\",\n      englishName: \"Quechua\"\n    },\n    'rm-CH': {\n      nativeName: \"Rumantsch\",\n      englishName: \"Romansh\"\n    },\n    'ro': {\n      nativeName: \"Română\",\n      englishName: \"Romanian\"\n    },\n    'ro-RO': {\n      nativeName: \"Română\",\n      englishName: \"Romanian\"\n    },\n    'ru': {\n      nativeName: \"Русский\",\n      englishName: \"Russian\"\n    },\n    'ru-RU': {\n      nativeName: \"Русский\",\n      englishName: \"Russian\"\n    },\n    'sa-IN': {\n      nativeName: \"संस्कृतम्\",\n      englishName: \"Sanskrit\"\n    },\n    'se-NO': {\n      nativeName: \"Davvisámegiella\",\n      englishName: \"Northern Sámi\"\n    },\n    'si-LK': {\n      nativeName: \"පළාත\",\n      englishName: \"Sinhala (Sri Lanka)\"\n    },\n    'sk': {\n      nativeName: \"Slovenčina\",\n      englishName: \"Slovak\"\n    },\n    'sk-SK': {\n      nativeName: \"Slovenčina (Slovakia)\",\n      englishName: \"Slovak (Slovakia)\"\n    },\n    'sl': {\n      nativeName: \"Slovenščina\",\n      englishName: \"Slovenian\"\n    },\n    'sl-SI': {\n      nativeName: \"Slovenščina\",\n      englishName: \"Slovenian\"\n    },\n    'so-SO': {\n      nativeName: \"Soomaaliga\",\n      englishName: \"Somali\"\n    },\n    'sq': {\n      nativeName: \"Shqip\",\n      englishName: \"Albanian\"\n    },\n    'sq-AL': {\n      nativeName: \"Shqip\",\n      englishName: \"Albanian\"\n    },\n    'sr': {\n      nativeName: \"Српски\",\n      englishName: \"Serbian\"\n    },\n    'sr-RS': {\n      nativeName: \"Српски (Serbia)\",\n      englishName: \"Serbian (Serbia)\"\n    },\n    'su': {\n      nativeName: \"Basa Sunda\",\n      englishName: \"Sundanese\"\n    },\n    'sv': {\n      nativeName: \"Svenska\",\n      englishName: \"Swedish\"\n    },\n    'sv-SE': {\n      nativeName: \"Svenska\",\n      englishName: \"Swedish\"\n    },\n    'sw': {\n      nativeName: \"Kiswahili\",\n      englishName: \"Swahili\"\n    },\n    'sw-KE': {\n      nativeName: \"Kiswahili\",\n      englishName: \"Swahili (Kenya)\"\n    },\n    'ta': {\n      nativeName: \"தமிழ்\",\n      englishName: \"Tamil\"\n    },\n    'ta-IN': {\n      nativeName: \"தமிழ்\",\n      englishName: \"Tamil\"\n    },\n    'te': {\n      nativeName: \"తెలుగు\",\n      englishName: \"Telugu\"\n    },\n    'te-IN': {\n      nativeName: \"తెలుగు\",\n      englishName: \"Telugu\"\n    },\n    'tg': {\n      nativeName: \"забо́ни тоҷикӣ́\",\n      englishName: \"Tajik\"\n    },\n    'tg-TJ': {\n      nativeName: \"тоҷикӣ\",\n      englishName: \"Tajik\"\n    },\n    'th': {\n      nativeName: \"ภาษาไทย\",\n      englishName: \"Thai\"\n    },\n    'th-TH': {\n      nativeName: \"ภาษาไทย (ประเทศไทย)\",\n      englishName: \"Thai (Thailand)\"\n    },\n    'tl': {\n      nativeName: \"Filipino\",\n      englishName: \"Filipino\"\n    },\n    'tl-PH': {\n      nativeName: \"Filipino\",\n      englishName: \"Filipino\"\n    },\n    'tlh': {\n      nativeName: \"tlhIngan-Hol\",\n      englishName: \"Klingon\"\n    },\n    'tr': {\n      nativeName: \"Türkçe\",\n      englishName: \"Turkish\"\n    },\n    'tr-TR': {\n      nativeName: \"Türkçe\",\n      englishName: \"Turkish\"\n    },\n    'tt-RU': {\n      nativeName: \"татарча\",\n      englishName: \"Tatar\"\n    },\n    'uk': {\n      nativeName: \"Українська\",\n      englishName: \"Ukrainian\"\n    },\n    'uk-UA': {\n      nativeName: \"Українська\",\n      englishName: \"Ukrainian\"\n    },\n    'ur': {\n      nativeName: \"اردو\",\n      englishName: \"Urdu\"\n    },\n    'ur-PK': {\n      nativeName: \"اردو\",\n      englishName: \"Urdu\"\n    },\n    'uz': {\n      nativeName: \"O'zbek\",\n      englishName: \"Uzbek\"\n    },\n    'uz-UZ': {\n      nativeName: \"O'zbek\",\n      englishName: \"Uzbek\"\n    },\n    'vi': {\n      nativeName: \"Tiếng Việt\",\n      englishName: \"Vietnamese\"\n    },\n    'vi-VN': {\n      nativeName: \"Tiếng Việt\",\n      englishName: \"Vietnamese\"\n    },\n    'xh-ZA': {\n      nativeName: \"isiXhosa\",\n      englishName: \"Xhosa\"\n    },\n    'yi': {\n      nativeName: \"ייִדיש\",\n      englishName: \"Yiddish\"\n    },\n    'yi-DE': {\n      nativeName: \"ייִדיש (German)\",\n      englishName: \"Yiddish (German)\"\n    },\n    'zh': {\n      nativeName: \"中文\",\n      englishName: \"Chinese\"\n    },\n    'zh-Hans': {\n      nativeName: \"中文简体\",\n      englishName: \"Chinese Simplified\"\n    },\n    'zh-Hant': {\n      nativeName: \"中文繁體\",\n      englishName: \"Chinese Traditional\"\n    },\n    'zh-CN': {\n      nativeName: \"中文（中国）\",\n      englishName: \"Chinese Simplified (China)\"\n    },\n    'zh-HK': {\n      nativeName: \"中文（香港）\",\n      englishName: \"Chinese Traditional (Hong Kong)\"\n    },\n    'zh-SG': {\n      nativeName: \"中文（新加坡）\",\n      englishName: \"Chinese Simplified (Singapore)\"\n    },\n    'zh-TW': {\n      nativeName: \"中文（台灣）\",\n      englishName: \"Chinese Traditional (Taiwan)\"\n    },\n    'zu-ZA': {\n      nativeName: \"isiZulu\",\n      englishName: \"Zulu\"\n    }\n  };\n}));\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/langmap/language-mapping-list.js?");
 
 /***/ }),
 
@@ -1733,17 +364,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;(function(root, factory) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var indexOf = __webpack_require__(/*! ./indexOf */ "./node_modules/mout/array/indexOf.js");
-
-    /**
-     * If array contains values.
-     */
-    function contains(arr, val) {
-        return indexOf(arr, val) !== -1;
-    }
-    module.exports = contains;
-
-
+eval("var indexOf = __webpack_require__(/*! ./indexOf */ \"./node_modules/mout/array/indexOf.js\");\n\n    /**\n     * If array contains values.\n     */\n    function contains(arr, val) {\n        return indexOf(arr, val) !== -1;\n    }\n    module.exports = contains;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/array/contains.js?");
 
 /***/ }),
 
@@ -1754,30 +375,7 @@ var indexOf = __webpack_require__(/*! ./indexOf */ "./node_modules/mout/array/in
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    /**
-     * Array forEach
-     */
-    function forEach(arr, callback, thisObj) {
-        if (arr == null) {
-            return;
-        }
-        var i = -1,
-            len = arr.length;
-        while (++i < len) {
-            // we iterate over sparse items since there is no way to make it
-            // work properly on IE 7-8. see #64
-            if ( callback.call(thisObj, arr[i], i, arr) === false ) {
-                break;
-            }
-        }
-    }
-
-    module.exports = forEach;
-
-
-
+eval("\n\n    /**\n     * Array forEach\n     */\n    function forEach(arr, callback, thisObj) {\n        if (arr == null) {\n            return;\n        }\n        var i = -1,\n            len = arr.length;\n        while (++i < len) {\n            // we iterate over sparse items since there is no way to make it\n            // work properly on IE 7-8. see #64\n            if ( callback.call(thisObj, arr[i], i, arr) === false ) {\n                break;\n            }\n        }\n    }\n\n    module.exports = forEach;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/array/forEach.js?");
 
 /***/ }),
 
@@ -1788,35 +386,7 @@ var indexOf = __webpack_require__(/*! ./indexOf */ "./node_modules/mout/array/in
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    /**
-     * Array.indexOf
-     */
-    function indexOf(arr, item, fromIndex) {
-        fromIndex = fromIndex || 0;
-        if (arr == null) {
-            return -1;
-        }
-
-        var len = arr.length,
-            i = fromIndex < 0 ? len + fromIndex : fromIndex;
-        while (i < len) {
-            // we iterate over sparse items since there is no way to make it
-            // work properly on IE 7-8. see #64
-            if (arr[i] === item) {
-                return i;
-            }
-
-            i++;
-        }
-
-        return -1;
-    }
-
-    module.exports = indexOf;
-
-
+eval("\n\n    /**\n     * Array.indexOf\n     */\n    function indexOf(arr, item, fromIndex) {\n        fromIndex = fromIndex || 0;\n        if (arr == null) {\n            return -1;\n        }\n\n        var len = arr.length,\n            i = fromIndex < 0 ? len + fromIndex : fromIndex;\n        while (i < len) {\n            // we iterate over sparse items since there is no way to make it\n            // work properly on IE 7-8. see #64\n            if (arr[i] === item) {\n                return i;\n            }\n\n            i++;\n        }\n\n        return -1;\n    }\n\n    module.exports = indexOf;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/array/indexOf.js?");
 
 /***/ }),
 
@@ -1827,41 +397,7 @@ var indexOf = __webpack_require__(/*! ./indexOf */ "./node_modules/mout/array/in
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_modules/mout/function/makeIterator_.js");
-
-    /**
-     * Return maximum value inside array
-     */
-    function max(arr, iterator, thisObj){
-        if (arr == null || !arr.length) {
-            return Infinity;
-        } else if (arr.length && !iterator) {
-            return Math.max.apply(Math, arr);
-        } else {
-            iterator = makeIterator(iterator, thisObj);
-            var result,
-                compare = -Infinity,
-                value,
-                temp;
-
-            var i = -1, len = arr.length;
-            while (++i < len) {
-                value = arr[i];
-                temp = iterator(value, i, arr);
-                if (temp > compare) {
-                    compare = temp;
-                    result = value;
-                }
-            }
-
-            return result;
-        }
-    }
-
-    module.exports = max;
-
-
-
+eval("var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ \"./node_modules/mout/function/makeIterator_.js\");\n\n    /**\n     * Return maximum value inside array\n     */\n    function max(arr, iterator, thisObj){\n        if (arr == null || !arr.length) {\n            return Infinity;\n        } else if (arr.length && !iterator) {\n            return Math.max.apply(Math, arr);\n        } else {\n            iterator = makeIterator(iterator, thisObj);\n            var result,\n                compare = -Infinity,\n                value,\n                temp;\n\n            var i = -1, len = arr.length;\n            while (++i < len) {\n                value = arr[i];\n                temp = iterator(value, i, arr);\n                if (temp > compare) {\n                    compare = temp;\n                    result = value;\n                }\n            }\n\n            return result;\n        }\n    }\n\n    module.exports = max;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/array/max.js?");
 
 /***/ }),
 
@@ -1872,41 +408,7 @@ var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_modules/mout/function/makeIterator_.js");
-
-    /**
-     * Return minimum value inside array
-     */
-    function min(arr, iterator, thisObj){
-        if (arr == null || !arr.length) {
-            return -Infinity;
-        } else if (arr.length && !iterator) {
-            return Math.min.apply(Math, arr);
-        } else {
-            iterator = makeIterator(iterator, thisObj);
-            var result,
-                compare = Infinity,
-                value,
-                temp;
-
-            var i = -1, len = arr.length;
-            while (++i < len) {
-                value = arr[i];
-                temp = iterator(value, i, arr);
-                if (temp < compare) {
-                    compare = temp;
-                    result = value;
-                }
-            }
-
-            return result;
-        }
-    }
-
-    module.exports = min;
-
-
-
+eval("var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ \"./node_modules/mout/function/makeIterator_.js\");\n\n    /**\n     * Return minimum value inside array\n     */\n    function min(arr, iterator, thisObj){\n        if (arr == null || !arr.length) {\n            return -Infinity;\n        } else if (arr.length && !iterator) {\n            return Math.min.apply(Math, arr);\n        } else {\n            iterator = makeIterator(iterator, thisObj);\n            var result,\n                compare = Infinity,\n                value,\n                temp;\n\n            var i = -1, len = arr.length;\n            while (++i < len) {\n                value = arr[i];\n                temp = iterator(value, i, arr);\n                if (temp < compare) {\n                    compare = temp;\n                    result = value;\n                }\n            }\n\n            return result;\n        }\n    }\n\n    module.exports = min;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/array/min.js?");
 
 /***/ }),
 
@@ -1917,42 +419,7 @@ var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    /**
-     * Create slice of source array or array-like object
-     */
-    function slice(arr, start, end){
-        var len = arr.length;
-
-        if (start == null) {
-            start = 0;
-        } else if (start < 0) {
-            start = Math.max(len + start, 0);
-        } else {
-            start = Math.min(start, len);
-        }
-
-        if (end == null) {
-            end = len;
-        } else if (end < 0) {
-            end = Math.max(len + end, 0);
-        } else {
-            end = Math.min(end, len);
-        }
-
-        var result = [];
-        while (start < end) {
-            result.push(arr[start++]);
-        }
-
-        return result;
-    }
-
-    module.exports = slice;
-
-
-
+eval("\n\n    /**\n     * Create slice of source array or array-like object\n     */\n    function slice(arr, start, end){\n        var len = arr.length;\n\n        if (start == null) {\n            start = 0;\n        } else if (start < 0) {\n            start = Math.max(len + start, 0);\n        } else {\n            start = Math.min(start, len);\n        }\n\n        if (end == null) {\n            end = len;\n        } else if (end < 0) {\n            end = Math.max(len + end, 0);\n        } else {\n            end = Math.min(end, len);\n        }\n\n        var result = [];\n        while (start < end) {\n            result.push(arr[start++]);\n        }\n\n        return result;\n    }\n\n    module.exports = slice;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/array/slice.js?");
 
 /***/ }),
 
@@ -1963,26 +430,7 @@ var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var slice = __webpack_require__(/*! ../array/slice */ "./node_modules/mout/array/slice.js");
-
-    /**
-     * Return a function that will execute in the given context, optionally adding any additional supplied parameters to the beginning of the arguments collection.
-     * @param {Function} fn  Function.
-     * @param {object} context   Execution context.
-     * @param {rest} args    Arguments (0...n arguments).
-     * @return {Function} Wrapped Function.
-     */
-    function bind(fn, context, args){
-        var argsArr = slice(arguments, 2); //curried args
-        return function(){
-            return fn.apply(context, argsArr.concat(slice(arguments)));
-        };
-    }
-
-    module.exports = bind;
-
-
-
+eval("var slice = __webpack_require__(/*! ../array/slice */ \"./node_modules/mout/array/slice.js\");\n\n    /**\n     * Return a function that will execute in the given context, optionally adding any additional supplied parameters to the beginning of the arguments collection.\n     * @param {Function} fn  Function.\n     * @param {object} context   Execution context.\n     * @param {rest} args    Arguments (0...n arguments).\n     * @return {Function} Wrapped Function.\n     */\n    function bind(fn, context, args){\n        var argsArr = slice(arguments, 2); //curried args\n        return function(){\n            return fn.apply(context, argsArr.concat(slice(arguments)));\n        };\n    }\n\n    module.exports = bind;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/function/bind.js?");
 
 /***/ }),
 
@@ -1993,19 +441,7 @@ var slice = __webpack_require__(/*! ../array/slice */ "./node_modules/mout/array
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    /**
-     * Returns the first argument provided to it.
-     */
-    function identity(val){
-        return val;
-    }
-
-    module.exports = identity;
-
-
-
+eval("\n\n    /**\n     * Returns the first argument provided to it.\n     */\n    function identity(val){\n        return val;\n    }\n\n    module.exports = identity;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/function/identity.js?");
 
 /***/ }),
 
@@ -2016,41 +452,7 @@ var slice = __webpack_require__(/*! ../array/slice */ "./node_modules/mout/array
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var identity = __webpack_require__(/*! ./identity */ "./node_modules/mout/function/identity.js");
-var prop = __webpack_require__(/*! ./prop */ "./node_modules/mout/function/prop.js");
-var deepMatches = __webpack_require__(/*! ../object/deepMatches */ "./node_modules/mout/object/deepMatches.js");
-
-    /**
-     * Converts argument into a valid iterator.
-     * Used internally on most array/object/collection methods that receives a
-     * callback/iterator providing a shortcut syntax.
-     */
-    function makeIterator(src, thisObj){
-        if (src == null) {
-            return identity;
-        }
-        switch(typeof src) {
-            case 'function':
-                // function is the first to improve perf (most common case)
-                // also avoid using `Function#call` if not needed, which boosts
-                // perf a lot in some cases
-                return (typeof thisObj !== 'undefined')? function(val, i, arr){
-                    return src.call(thisObj, val, i, arr);
-                } : src;
-            case 'object':
-                return function(val){
-                    return deepMatches(val, src);
-                };
-            case 'string':
-            case 'number':
-                return prop(src);
-        }
-    }
-
-    module.exports = makeIterator;
-
-
-
+eval("var identity = __webpack_require__(/*! ./identity */ \"./node_modules/mout/function/identity.js\");\nvar prop = __webpack_require__(/*! ./prop */ \"./node_modules/mout/function/prop.js\");\nvar deepMatches = __webpack_require__(/*! ../object/deepMatches */ \"./node_modules/mout/object/deepMatches.js\");\n\n    /**\n     * Converts argument into a valid iterator.\n     * Used internally on most array/object/collection methods that receives a\n     * callback/iterator providing a shortcut syntax.\n     */\n    function makeIterator(src, thisObj){\n        if (src == null) {\n            return identity;\n        }\n        switch(typeof src) {\n            case 'function':\n                // function is the first to improve perf (most common case)\n                // also avoid using `Function#call` if not needed, which boosts\n                // perf a lot in some cases\n                return (typeof thisObj !== 'undefined')? function(val, i, arr){\n                    return src.call(thisObj, val, i, arr);\n                } : src;\n            case 'object':\n                return function(val){\n                    return deepMatches(val, src);\n                };\n            case 'string':\n            case 'number':\n                return prop(src);\n        }\n    }\n\n    module.exports = makeIterator;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/function/makeIterator_.js?");
 
 /***/ }),
 
@@ -2061,21 +463,7 @@ var deepMatches = __webpack_require__(/*! ../object/deepMatches */ "./node_modul
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    /**
-     * Returns a function that gets a property of the passed object
-     */
-    function prop(name){
-        return function(obj){
-            return obj[name];
-        };
-    }
-
-    module.exports = prop;
-
-
-
+eval("\n\n    /**\n     * Returns a function that gets a property of the passed object\n     */\n    function prop(name){\n        return function(obj){\n            return obj[name];\n        };\n    }\n\n    module.exports = prop;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/function/prop.js?");
 
 /***/ }),
 
@@ -2086,56 +474,7 @@ var deepMatches = __webpack_require__(/*! ../object/deepMatches */ "./node_modul
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var kindOf = __webpack_require__(/*! ./kindOf */ "./node_modules/mout/lang/kindOf.js");
-var isPlainObject = __webpack_require__(/*! ./isPlainObject */ "./node_modules/mout/lang/isPlainObject.js");
-var mixIn = __webpack_require__(/*! ../object/mixIn */ "./node_modules/mout/object/mixIn.js");
-
-    /**
-     * Clone native types.
-     */
-    function clone(val){
-        switch (kindOf(val)) {
-            case 'Object':
-                return cloneObject(val);
-            case 'Array':
-                return cloneArray(val);
-            case 'RegExp':
-                return cloneRegExp(val);
-            case 'Date':
-                return cloneDate(val);
-            default:
-                return val;
-        }
-    }
-
-    function cloneObject(source) {
-        if (isPlainObject(source)) {
-            return mixIn({}, source);
-        } else {
-            return source;
-        }
-    }
-
-    function cloneRegExp(r) {
-        var flags = '';
-        flags += r.multiline ? 'm' : '';
-        flags += r.global ? 'g' : '';
-        flags += r.ignoreCase ? 'i' : '';
-        return new RegExp(r.source, flags);
-    }
-
-    function cloneDate(date) {
-        return new Date(+date);
-    }
-
-    function cloneArray(arr) {
-        return arr.slice();
-    }
-
-    module.exports = clone;
-
-
-
+eval("var kindOf = __webpack_require__(/*! ./kindOf */ \"./node_modules/mout/lang/kindOf.js\");\nvar isPlainObject = __webpack_require__(/*! ./isPlainObject */ \"./node_modules/mout/lang/isPlainObject.js\");\nvar mixIn = __webpack_require__(/*! ../object/mixIn */ \"./node_modules/mout/object/mixIn.js\");\n\n    /**\n     * Clone native types.\n     */\n    function clone(val){\n        switch (kindOf(val)) {\n            case 'Object':\n                return cloneObject(val);\n            case 'Array':\n                return cloneArray(val);\n            case 'RegExp':\n                return cloneRegExp(val);\n            case 'Date':\n                return cloneDate(val);\n            default:\n                return val;\n        }\n    }\n\n    function cloneObject(source) {\n        if (isPlainObject(source)) {\n            return mixIn({}, source);\n        } else {\n            return source;\n        }\n    }\n\n    function cloneRegExp(r) {\n        var flags = '';\n        flags += r.multiline ? 'm' : '';\n        flags += r.global ? 'g' : '';\n        flags += r.ignoreCase ? 'i' : '';\n        return new RegExp(r.source, flags);\n    }\n\n    function cloneDate(date) {\n        return new Date(+date);\n    }\n\n    function cloneArray(arr) {\n        return arr.slice();\n    }\n\n    module.exports = clone;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/clone.js?");
 
 /***/ }),
 
@@ -2146,55 +485,7 @@ var mixIn = __webpack_require__(/*! ../object/mixIn */ "./node_modules/mout/obje
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var clone = __webpack_require__(/*! ./clone */ "./node_modules/mout/lang/clone.js");
-var forOwn = __webpack_require__(/*! ../object/forOwn */ "./node_modules/mout/object/forOwn.js");
-var kindOf = __webpack_require__(/*! ./kindOf */ "./node_modules/mout/lang/kindOf.js");
-var isPlainObject = __webpack_require__(/*! ./isPlainObject */ "./node_modules/mout/lang/isPlainObject.js");
-
-    /**
-     * Recursively clone native types.
-     */
-    function deepClone(val, instanceClone) {
-        switch ( kindOf(val) ) {
-            case 'Object':
-                return cloneObject(val, instanceClone);
-            case 'Array':
-                return cloneArray(val, instanceClone);
-            default:
-                return clone(val);
-        }
-    }
-
-    function cloneObject(source, instanceClone) {
-        if (isPlainObject(source)) {
-            var out = {};
-            forOwn(source, function(val, key) {
-                this[key] = deepClone(val, instanceClone);
-            }, out);
-            return out;
-        } else if (instanceClone) {
-            return instanceClone(source);
-        } else {
-            return source;
-        }
-    }
-
-    function cloneArray(arr, instanceClone) {
-        var out = [],
-            i = -1,
-            n = arr.length,
-            val;
-        while (++i < n) {
-            out[i] = deepClone(arr[i], instanceClone);
-        }
-        return out;
-    }
-
-    module.exports = deepClone;
-
-
-
-
+eval("var clone = __webpack_require__(/*! ./clone */ \"./node_modules/mout/lang/clone.js\");\nvar forOwn = __webpack_require__(/*! ../object/forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar kindOf = __webpack_require__(/*! ./kindOf */ \"./node_modules/mout/lang/kindOf.js\");\nvar isPlainObject = __webpack_require__(/*! ./isPlainObject */ \"./node_modules/mout/lang/isPlainObject.js\");\n\n    /**\n     * Recursively clone native types.\n     */\n    function deepClone(val, instanceClone) {\n        switch ( kindOf(val) ) {\n            case 'Object':\n                return cloneObject(val, instanceClone);\n            case 'Array':\n                return cloneArray(val, instanceClone);\n            default:\n                return clone(val);\n        }\n    }\n\n    function cloneObject(source, instanceClone) {\n        if (isPlainObject(source)) {\n            var out = {};\n            forOwn(source, function(val, key) {\n                this[key] = deepClone(val, instanceClone);\n            }, out);\n            return out;\n        } else if (instanceClone) {\n            return instanceClone(source);\n        } else {\n            return source;\n        }\n    }\n\n    function cloneArray(arr, instanceClone) {\n        var out = [],\n            i = -1,\n            n = arr.length,\n            val;\n        while (++i < n) {\n            out[i] = deepClone(arr[i], instanceClone);\n        }\n        return out;\n    }\n\n    module.exports = deepClone;\n\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/deepClone.js?");
 
 /***/ }),
 
@@ -2205,30 +496,7 @@ var isPlainObject = __webpack_require__(/*! ./isPlainObject */ "./node_modules/m
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    /**
-     * Check if both arguments are egal.
-     */
-    function is(x, y){
-        // implementation borrowed from harmony:egal spec
-        if (x === y) {
-          // 0 === -0, but they are not identical
-          return x !== 0 || 1 / x === 1 / y;
-        }
-
-        // NaN !== NaN, but they are identical.
-        // NaNs are the only non-reflexive value, i.e., if x !== x,
-        // then x is a NaN.
-        // isNaN is broken: it converts its argument to number, so
-        // isNaN("foo") => true
-        return x !== x && y !== y;
-    }
-
-    module.exports = is;
-
-
-
+eval("\n\n    /**\n     * Check if both arguments are egal.\n     */\n    function is(x, y){\n        // implementation borrowed from harmony:egal spec\n        if (x === y) {\n          // 0 === -0, but they are not identical\n          return x !== 0 || 1 / x === 1 / y;\n        }\n\n        // NaN !== NaN, but they are identical.\n        // NaNs are the only non-reflexive value, i.e., if x !== x,\n        // then x is a NaN.\n        // isNaN is broken: it converts its argument to number, so\n        // isNaN(\"foo\") => true\n        return x !== x && y !== y;\n    }\n\n    module.exports = is;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/is.js?");
 
 /***/ }),
 
@@ -2239,15 +507,7 @@ var isPlainObject = __webpack_require__(/*! ./isPlainObject */ "./node_modules/m
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isKind = __webpack_require__(/*! ./isKind */ "./node_modules/mout/lang/isKind.js");
-    /**
-     */
-    var isArray = Array.isArray || function (val) {
-        return isKind(val, 'Array');
-    };
-    module.exports = isArray;
-
-
+eval("var isKind = __webpack_require__(/*! ./isKind */ \"./node_modules/mout/lang/isKind.js\");\n    /**\n     */\n    var isArray = Array.isArray || function (val) {\n        return isKind(val, 'Array');\n    };\n    module.exports = isArray;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/isArray.js?");
 
 /***/ }),
 
@@ -2258,15 +518,7 @@ var isKind = __webpack_require__(/*! ./isKind */ "./node_modules/mout/lang/isKin
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isKind = __webpack_require__(/*! ./isKind */ "./node_modules/mout/lang/isKind.js");
-    /**
-     */
-    function isFunction(val) {
-        return isKind(val, 'Function');
-    }
-    module.exports = isFunction;
-
-
+eval("var isKind = __webpack_require__(/*! ./isKind */ \"./node_modules/mout/lang/isKind.js\");\n    /**\n     */\n    function isFunction(val) {\n        return isKind(val, 'Function');\n    }\n    module.exports = isFunction;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/isFunction.js?");
 
 /***/ }),
 
@@ -2277,16 +529,7 @@ var isKind = __webpack_require__(/*! ./isKind */ "./node_modules/mout/lang/isKin
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var kindOf = __webpack_require__(/*! ./kindOf */ "./node_modules/mout/lang/kindOf.js");
-    /**
-     * Check if value is from a specific "kind".
-     */
-    function isKind(val, kind){
-        return kindOf(val) === kind;
-    }
-    module.exports = isKind;
-
-
+eval("var kindOf = __webpack_require__(/*! ./kindOf */ \"./node_modules/mout/lang/kindOf.js\");\n    /**\n     * Check if value is from a specific \"kind\".\n     */\n    function isKind(val, kind){\n        return kindOf(val) === kind;\n    }\n    module.exports = isKind;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/isKind.js?");
 
 /***/ }),
 
@@ -2297,15 +540,7 @@ var kindOf = __webpack_require__(/*! ./kindOf */ "./node_modules/mout/lang/kindO
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isKind = __webpack_require__(/*! ./isKind */ "./node_modules/mout/lang/isKind.js");
-    /**
-     */
-    function isObject(val) {
-        return isKind(val, 'Object');
-    }
-    module.exports = isObject;
-
-
+eval("var isKind = __webpack_require__(/*! ./isKind */ \"./node_modules/mout/lang/isKind.js\");\n    /**\n     */\n    function isObject(val) {\n        return isKind(val, 'Object');\n    }\n    module.exports = isObject;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/isObject.js?");
 
 /***/ }),
 
@@ -2316,20 +551,7 @@ var isKind = __webpack_require__(/*! ./isKind */ "./node_modules/mout/lang/isKin
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    /**
-     * Checks if the value is created by the `Object` constructor.
-     */
-    function isPlainObject(value) {
-        return (!!value && typeof value === 'object' &&
-            value.constructor === Object);
-    }
-
-    module.exports = isPlainObject;
-
-
-
+eval("\n\n    /**\n     * Checks if the value is created by the `Object` constructor.\n     */\n    function isPlainObject(value) {\n        return (!!value && typeof value === 'object' &&\n            value.constructor === Object);\n    }\n\n    module.exports = isPlainObject;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/isPlainObject.js?");
 
 /***/ }),
 
@@ -2340,28 +562,7 @@ var isKind = __webpack_require__(/*! ./isKind */ "./node_modules/mout/lang/isKin
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    /**
-     * Checks if the object is a primitive
-     */
-    function isPrimitive(value) {
-        // Using switch fallthrough because it's simple to read and is
-        // generally fast: http://jsperf.com/testing-value-is-primitive/5
-        switch (typeof value) {
-            case "string":
-            case "number":
-            case "boolean":
-                return true;
-        }
-
-        return value == null;
-    }
-
-    module.exports = isPrimitive;
-
-
-
+eval("\n\n    /**\n     * Checks if the object is a primitive\n     */\n    function isPrimitive(value) {\n        // Using switch fallthrough because it's simple to read and is\n        // generally fast: http://jsperf.com/testing-value-is-primitive/5\n        switch (typeof value) {\n            case \"string\":\n            case \"number\":\n            case \"boolean\":\n                return true;\n        }\n\n        return value == null;\n    }\n\n    module.exports = isPrimitive;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/isPrimitive.js?");
 
 /***/ }),
 
@@ -2372,27 +573,7 @@ var isKind = __webpack_require__(/*! ./isKind */ "./node_modules/mout/lang/isKin
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    var _rKind = /^\[object (.*)\]$/,
-        _toString = Object.prototype.toString,
-        UNDEF;
-
-    /**
-     * Gets the "kind" of value. (e.g. "String", "Number", etc)
-     */
-    function kindOf(val) {
-        if (val === null) {
-            return 'Null';
-        } else if (val === UNDEF) {
-            return 'Undefined';
-        } else {
-            return _rKind.exec( _toString.call(val) )[1];
-        }
-    }
-    module.exports = kindOf;
-
-
+eval("\n\n    var _rKind = /^\\[object (.*)\\]$/,\n        _toString = Object.prototype.toString,\n        UNDEF;\n\n    /**\n     * Gets the \"kind\" of value. (e.g. \"String\", \"Number\", etc)\n     */\n    function kindOf(val) {\n        if (val === null) {\n            return 'Null';\n        } else if (val === UNDEF) {\n            return 'Undefined';\n        } else {\n            return _rKind.exec( _toString.call(val) )[1];\n        }\n    }\n    module.exports = kindOf;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/lang/kindOf.js?");
 
 /***/ }),
 
@@ -2403,51 +584,7 @@ var isKind = __webpack_require__(/*! ./isKind */ "./node_modules/mout/lang/isKin
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-
-
-//automatically generated, do not edit!
-//run `node build` instead
-module.exports = {
-    'bindAll' : __webpack_require__(/*! ./object/bindAll */ "./node_modules/mout/object/bindAll.js"),
-    'contains' : __webpack_require__(/*! ./object/contains */ "./node_modules/mout/object/contains.js"),
-    'deepFillIn' : __webpack_require__(/*! ./object/deepFillIn */ "./node_modules/mout/object/deepFillIn.js"),
-    'deepMatches' : __webpack_require__(/*! ./object/deepMatches */ "./node_modules/mout/object/deepMatches.js"),
-    'deepMixIn' : __webpack_require__(/*! ./object/deepMixIn */ "./node_modules/mout/object/deepMixIn.js"),
-    'equals' : __webpack_require__(/*! ./object/equals */ "./node_modules/mout/object/equals.js"),
-    'every' : __webpack_require__(/*! ./object/every */ "./node_modules/mout/object/every.js"),
-    'fillIn' : __webpack_require__(/*! ./object/fillIn */ "./node_modules/mout/object/fillIn.js"),
-    'filter' : __webpack_require__(/*! ./object/filter */ "./node_modules/mout/object/filter.js"),
-    'find' : __webpack_require__(/*! ./object/find */ "./node_modules/mout/object/find.js"),
-    'flatten' : __webpack_require__(/*! ./object/flatten */ "./node_modules/mout/object/flatten.js"),
-    'forIn' : __webpack_require__(/*! ./object/forIn */ "./node_modules/mout/object/forIn.js"),
-    'forOwn' : __webpack_require__(/*! ./object/forOwn */ "./node_modules/mout/object/forOwn.js"),
-    'functions' : __webpack_require__(/*! ./object/functions */ "./node_modules/mout/object/functions.js"),
-    'get' : __webpack_require__(/*! ./object/get */ "./node_modules/mout/object/get.js"),
-    'has' : __webpack_require__(/*! ./object/has */ "./node_modules/mout/object/has.js"),
-    'hasOwn' : __webpack_require__(/*! ./object/hasOwn */ "./node_modules/mout/object/hasOwn.js"),
-    'keys' : __webpack_require__(/*! ./object/keys */ "./node_modules/mout/object/keys.js"),
-    'map' : __webpack_require__(/*! ./object/map */ "./node_modules/mout/object/map.js"),
-    'matches' : __webpack_require__(/*! ./object/matches */ "./node_modules/mout/object/matches.js"),
-    'max' : __webpack_require__(/*! ./object/max */ "./node_modules/mout/object/max.js"),
-    'merge' : __webpack_require__(/*! ./object/merge */ "./node_modules/mout/object/merge.js"),
-    'min' : __webpack_require__(/*! ./object/min */ "./node_modules/mout/object/min.js"),
-    'mixIn' : __webpack_require__(/*! ./object/mixIn */ "./node_modules/mout/object/mixIn.js"),
-    'namespace' : __webpack_require__(/*! ./object/namespace */ "./node_modules/mout/object/namespace.js"),
-    'omit' : __webpack_require__(/*! ./object/omit */ "./node_modules/mout/object/omit.js"),
-    'pick' : __webpack_require__(/*! ./object/pick */ "./node_modules/mout/object/pick.js"),
-    'pluck' : __webpack_require__(/*! ./object/pluck */ "./node_modules/mout/object/pluck.js"),
-    'reduce' : __webpack_require__(/*! ./object/reduce */ "./node_modules/mout/object/reduce.js"),
-    'reject' : __webpack_require__(/*! ./object/reject */ "./node_modules/mout/object/reject.js"),
-    'result' : __webpack_require__(/*! ./object/result */ "./node_modules/mout/object/result.js"),
-    'set' : __webpack_require__(/*! ./object/set */ "./node_modules/mout/object/set.js"),
-    'size' : __webpack_require__(/*! ./object/size */ "./node_modules/mout/object/size.js"),
-    'some' : __webpack_require__(/*! ./object/some */ "./node_modules/mout/object/some.js"),
-    'unset' : __webpack_require__(/*! ./object/unset */ "./node_modules/mout/object/unset.js"),
-    'values' : __webpack_require__(/*! ./object/values */ "./node_modules/mout/object/values.js")
-};
-
-
-
+eval("\n\n//automatically generated, do not edit!\n//run `node build` instead\nmodule.exports = {\n    'bindAll' : __webpack_require__(/*! ./object/bindAll */ \"./node_modules/mout/object/bindAll.js\"),\n    'contains' : __webpack_require__(/*! ./object/contains */ \"./node_modules/mout/object/contains.js\"),\n    'deepFillIn' : __webpack_require__(/*! ./object/deepFillIn */ \"./node_modules/mout/object/deepFillIn.js\"),\n    'deepMatches' : __webpack_require__(/*! ./object/deepMatches */ \"./node_modules/mout/object/deepMatches.js\"),\n    'deepMixIn' : __webpack_require__(/*! ./object/deepMixIn */ \"./node_modules/mout/object/deepMixIn.js\"),\n    'equals' : __webpack_require__(/*! ./object/equals */ \"./node_modules/mout/object/equals.js\"),\n    'every' : __webpack_require__(/*! ./object/every */ \"./node_modules/mout/object/every.js\"),\n    'fillIn' : __webpack_require__(/*! ./object/fillIn */ \"./node_modules/mout/object/fillIn.js\"),\n    'filter' : __webpack_require__(/*! ./object/filter */ \"./node_modules/mout/object/filter.js\"),\n    'find' : __webpack_require__(/*! ./object/find */ \"./node_modules/mout/object/find.js\"),\n    'flatten' : __webpack_require__(/*! ./object/flatten */ \"./node_modules/mout/object/flatten.js\"),\n    'forIn' : __webpack_require__(/*! ./object/forIn */ \"./node_modules/mout/object/forIn.js\"),\n    'forOwn' : __webpack_require__(/*! ./object/forOwn */ \"./node_modules/mout/object/forOwn.js\"),\n    'functions' : __webpack_require__(/*! ./object/functions */ \"./node_modules/mout/object/functions.js\"),\n    'get' : __webpack_require__(/*! ./object/get */ \"./node_modules/mout/object/get.js\"),\n    'has' : __webpack_require__(/*! ./object/has */ \"./node_modules/mout/object/has.js\"),\n    'hasOwn' : __webpack_require__(/*! ./object/hasOwn */ \"./node_modules/mout/object/hasOwn.js\"),\n    'keys' : __webpack_require__(/*! ./object/keys */ \"./node_modules/mout/object/keys.js\"),\n    'map' : __webpack_require__(/*! ./object/map */ \"./node_modules/mout/object/map.js\"),\n    'matches' : __webpack_require__(/*! ./object/matches */ \"./node_modules/mout/object/matches.js\"),\n    'max' : __webpack_require__(/*! ./object/max */ \"./node_modules/mout/object/max.js\"),\n    'merge' : __webpack_require__(/*! ./object/merge */ \"./node_modules/mout/object/merge.js\"),\n    'min' : __webpack_require__(/*! ./object/min */ \"./node_modules/mout/object/min.js\"),\n    'mixIn' : __webpack_require__(/*! ./object/mixIn */ \"./node_modules/mout/object/mixIn.js\"),\n    'namespace' : __webpack_require__(/*! ./object/namespace */ \"./node_modules/mout/object/namespace.js\"),\n    'omit' : __webpack_require__(/*! ./object/omit */ \"./node_modules/mout/object/omit.js\"),\n    'pick' : __webpack_require__(/*! ./object/pick */ \"./node_modules/mout/object/pick.js\"),\n    'pluck' : __webpack_require__(/*! ./object/pluck */ \"./node_modules/mout/object/pluck.js\"),\n    'reduce' : __webpack_require__(/*! ./object/reduce */ \"./node_modules/mout/object/reduce.js\"),\n    'reject' : __webpack_require__(/*! ./object/reject */ \"./node_modules/mout/object/reject.js\"),\n    'result' : __webpack_require__(/*! ./object/result */ \"./node_modules/mout/object/result.js\"),\n    'set' : __webpack_require__(/*! ./object/set */ \"./node_modules/mout/object/set.js\"),\n    'size' : __webpack_require__(/*! ./object/size */ \"./node_modules/mout/object/size.js\"),\n    'some' : __webpack_require__(/*! ./object/some */ \"./node_modules/mout/object/some.js\"),\n    'unset' : __webpack_require__(/*! ./object/unset */ \"./node_modules/mout/object/unset.js\"),\n    'values' : __webpack_require__(/*! ./object/values */ \"./node_modules/mout/object/values.js\")\n};\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object.js?");
 
 /***/ }),
 
@@ -2458,26 +595,7 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var functions = __webpack_require__(/*! ./functions */ "./node_modules/mout/object/functions.js");
-var bind = __webpack_require__(/*! ../function/bind */ "./node_modules/mout/function/bind.js");
-var forEach = __webpack_require__(/*! ../array/forEach */ "./node_modules/mout/array/forEach.js");
-var slice = __webpack_require__(/*! ../array/slice */ "./node_modules/mout/array/slice.js");
-
-    /**
-     * Binds methods of the object to be run in it's own context.
-     */
-    function bindAll(obj, rest_methodNames){
-        var keys = arguments.length > 1?
-                    slice(arguments, 1) : functions(obj);
-        forEach(keys, function(key){
-            obj[key] = bind(obj[key], obj);
-        });
-    }
-
-    module.exports = bindAll;
-
-
-
+eval("var functions = __webpack_require__(/*! ./functions */ \"./node_modules/mout/object/functions.js\");\nvar bind = __webpack_require__(/*! ../function/bind */ \"./node_modules/mout/function/bind.js\");\nvar forEach = __webpack_require__(/*! ../array/forEach */ \"./node_modules/mout/array/forEach.js\");\nvar slice = __webpack_require__(/*! ../array/slice */ \"./node_modules/mout/array/slice.js\");\n\n    /**\n     * Binds methods of the object to be run in it's own context.\n     */\n    function bindAll(obj, rest_methodNames){\n        var keys = arguments.length > 1?\n                    slice(arguments, 1) : functions(obj);\n        forEach(keys, function(key){\n            obj[key] = bind(obj[key], obj);\n        });\n    }\n\n    module.exports = bindAll;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/bindAll.js?");
 
 /***/ }),
 
@@ -2488,20 +606,7 @@ var slice = __webpack_require__(/*! ../array/slice */ "./node_modules/mout/array
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var some = __webpack_require__(/*! ./some */ "./node_modules/mout/object/some.js");
-
-    /**
-     * Check if object contains value
-     */
-    function contains(obj, needle) {
-        return some(obj, function(val) {
-            return (val === needle);
-        });
-    }
-    module.exports = contains;
-
-
-
+eval("var some = __webpack_require__(/*! ./some */ \"./node_modules/mout/object/some.js\");\n\n    /**\n     * Check if object contains value\n     */\n    function contains(obj, needle) {\n        return some(obj, function(val) {\n            return (val === needle);\n        });\n    }\n    module.exports = contains;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/contains.js?");
 
 /***/ }),
 
@@ -2512,40 +617,7 @@ var some = __webpack_require__(/*! ./some */ "./node_modules/mout/object/some.js
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-var isPlainObject = __webpack_require__(/*! ../lang/isPlainObject */ "./node_modules/mout/lang/isPlainObject.js");
-
-    /**
-     * Deeply copy missing properties in the target from the defaults.
-     */
-    function deepFillIn(target, defaults){
-        var i = 0,
-            n = arguments.length,
-            obj;
-
-        while(++i < n) {
-            obj = arguments[i];
-            if (obj) {
-                // jshint loopfunc: true
-                forOwn(obj, function(newValue, key) {
-                    var curValue = target[key];
-                    if (curValue == null) {
-                        target[key] = newValue;
-                    } else if (isPlainObject(curValue) &&
-                               isPlainObject(newValue)) {
-                        deepFillIn(curValue, newValue);
-                    }
-                });
-            }
-        }
-
-        return target;
-    }
-
-    module.exports = deepFillIn;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar isPlainObject = __webpack_require__(/*! ../lang/isPlainObject */ \"./node_modules/mout/lang/isPlainObject.js\");\n\n    /**\n     * Deeply copy missing properties in the target from the defaults.\n     */\n    function deepFillIn(target, defaults){\n        var i = 0,\n            n = arguments.length,\n            obj;\n\n        while(++i < n) {\n            obj = arguments[i];\n            if (obj) {\n                // jshint loopfunc: true\n                forOwn(obj, function(newValue, key) {\n                    var curValue = target[key];\n                    if (curValue == null) {\n                        target[key] = newValue;\n                    } else if (isPlainObject(curValue) &&\n                               isPlainObject(newValue)) {\n                        deepFillIn(curValue, newValue);\n                    }\n                });\n            }\n        }\n\n        return target;\n    }\n\n    module.exports = deepFillIn;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/deepFillIn.js?");
 
 /***/ }),
 
@@ -2556,62 +628,7 @@ var isPlainObject = __webpack_require__(/*! ../lang/isPlainObject */ "./node_mod
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-var isArray = __webpack_require__(/*! ../lang/isArray */ "./node_modules/mout/lang/isArray.js");
-
-    function containsMatch(array, pattern) {
-        var i = -1, length = array.length;
-        while (++i < length) {
-            if (deepMatches(array[i], pattern)) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    function matchArray(target, pattern) {
-        var i = -1, patternLength = pattern.length;
-        while (++i < patternLength) {
-            if (!containsMatch(target, pattern[i])) {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
-    function matchObject(target, pattern) {
-        var result = true;
-        forOwn(pattern, function(val, key) {
-            if (!deepMatches(target[key], val)) {
-                // Return false to break out of forOwn early
-                return (result = false);
-            }
-        });
-
-        return result;
-    }
-
-    /**
-     * Recursively check if the objects match.
-     */
-    function deepMatches(target, pattern){
-        if (target && typeof target === 'object') {
-            if (isArray(target) && isArray(pattern)) {
-                return matchArray(target, pattern);
-            } else {
-                return matchObject(target, pattern);
-            }
-        } else {
-            return target === pattern;
-        }
-    }
-
-    module.exports = deepMatches;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar isArray = __webpack_require__(/*! ../lang/isArray */ \"./node_modules/mout/lang/isArray.js\");\n\n    function containsMatch(array, pattern) {\n        var i = -1, length = array.length;\n        while (++i < length) {\n            if (deepMatches(array[i], pattern)) {\n                return true;\n            }\n        }\n\n        return false;\n    }\n\n    function matchArray(target, pattern) {\n        var i = -1, patternLength = pattern.length;\n        while (++i < patternLength) {\n            if (!containsMatch(target, pattern[i])) {\n                return false;\n            }\n        }\n\n        return true;\n    }\n\n    function matchObject(target, pattern) {\n        var result = true;\n        forOwn(pattern, function(val, key) {\n            if (!deepMatches(target[key], val)) {\n                // Return false to break out of forOwn early\n                return (result = false);\n            }\n        });\n\n        return result;\n    }\n\n    /**\n     * Recursively check if the objects match.\n     */\n    function deepMatches(target, pattern){\n        if (target && typeof target === 'object') {\n            if (isArray(target) && isArray(pattern)) {\n                return matchArray(target, pattern);\n            } else {\n                return matchObject(target, pattern);\n            }\n        } else {\n            return target === pattern;\n        }\n    }\n\n    module.exports = deepMatches;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/deepMatches.js?");
 
 /***/ }),
 
@@ -2622,41 +639,7 @@ var isArray = __webpack_require__(/*! ../lang/isArray */ "./node_modules/mout/la
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-var isPlainObject = __webpack_require__(/*! ../lang/isPlainObject */ "./node_modules/mout/lang/isPlainObject.js");
-
-    /**
-     * Mixes objects into the target object, recursively mixing existing child
-     * objects.
-     */
-    function deepMixIn(target, objects) {
-        var i = 0,
-            n = arguments.length,
-            obj;
-
-        while(++i < n){
-            obj = arguments[i];
-            if (obj) {
-                forOwn(obj, copyProp, target);
-            }
-        }
-
-        return target;
-    }
-
-    function copyProp(val, key) {
-        var existing = this[key];
-        if (isPlainObject(val) && isPlainObject(existing)) {
-            deepMixIn(existing, val);
-        } else {
-            this[key] = val;
-        }
-    }
-
-    module.exports = deepMixIn;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar isPlainObject = __webpack_require__(/*! ../lang/isPlainObject */ \"./node_modules/mout/lang/isPlainObject.js\");\n\n    /**\n     * Mixes objects into the target object, recursively mixing existing child\n     * objects.\n     */\n    function deepMixIn(target, objects) {\n        var i = 0,\n            n = arguments.length,\n            obj;\n\n        while(++i < n){\n            obj = arguments[i];\n            if (obj) {\n                forOwn(obj, copyProp, target);\n            }\n        }\n\n        return target;\n    }\n\n    function copyProp(val, key) {\n        var existing = this[key];\n        if (isPlainObject(val) && isPlainObject(existing)) {\n            deepMixIn(existing, val);\n        } else {\n            this[key] = val;\n        }\n    }\n\n    module.exports = deepMixIn;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/deepMixIn.js?");
 
 /***/ }),
 
@@ -2667,40 +650,7 @@ var isPlainObject = __webpack_require__(/*! ../lang/isPlainObject */ "./node_mod
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var hasOwn = __webpack_require__(/*! ./hasOwn */ "./node_modules/mout/object/hasOwn.js");
-var every = __webpack_require__(/*! ./every */ "./node_modules/mout/object/every.js");
-var isObject = __webpack_require__(/*! ../lang/isObject */ "./node_modules/mout/lang/isObject.js");
-var is = __webpack_require__(/*! ../lang/is */ "./node_modules/mout/lang/is.js");
-
-    // Makes a function to compare the object values from the specified compare
-    // operation callback.
-    function makeCompare(callback) {
-        return function(value, key) {
-            return hasOwn(this, key) && callback(value, this[key]);
-        };
-    }
-
-    function checkProperties(value, key) {
-        return hasOwn(this, key);
-    }
-
-    /**
-     * Checks if two objects have the same keys and values.
-     */
-    function equals(a, b, callback) {
-        callback = callback || is;
-
-        if (!isObject(a) || !isObject(b)) {
-            return callback(a, b);
-        }
-
-        return (every(a, makeCompare(callback), b) &&
-                every(b, checkProperties, a));
-    }
-
-    module.exports = equals;
-
-
+eval("var hasOwn = __webpack_require__(/*! ./hasOwn */ \"./node_modules/mout/object/hasOwn.js\");\nvar every = __webpack_require__(/*! ./every */ \"./node_modules/mout/object/every.js\");\nvar isObject = __webpack_require__(/*! ../lang/isObject */ \"./node_modules/mout/lang/isObject.js\");\nvar is = __webpack_require__(/*! ../lang/is */ \"./node_modules/mout/lang/is.js\");\n\n    // Makes a function to compare the object values from the specified compare\n    // operation callback.\n    function makeCompare(callback) {\n        return function(value, key) {\n            return hasOwn(this, key) && callback(value, this[key]);\n        };\n    }\n\n    function checkProperties(value, key) {\n        return hasOwn(this, key);\n    }\n\n    /**\n     * Checks if two objects have the same keys and values.\n     */\n    function equals(a, b, callback) {\n        callback = callback || is;\n\n        if (!isObject(a) || !isObject(b)) {\n            return callback(a, b);\n        }\n\n        return (every(a, makeCompare(callback), b) &&\n                every(b, checkProperties, a));\n    }\n\n    module.exports = equals;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/equals.js?");
 
 /***/ }),
 
@@ -2711,30 +661,7 @@ var is = __webpack_require__(/*! ../lang/is */ "./node_modules/mout/lang/is.js")
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_modules/mout/function/makeIterator_.js");
-
-    /**
-     * Object every
-     */
-    function every(obj, callback, thisObj) {
-        callback = makeIterator(callback, thisObj);
-        var result = true;
-        forOwn(obj, function(val, key) {
-            // we consider any falsy values as "false" on purpose so shorthand
-            // syntax can be used to check property existence
-            if (!callback(val, key, obj)) {
-                result = false;
-                return false; // break
-            }
-        });
-        return result;
-    }
-
-    module.exports = every;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ \"./node_modules/mout/function/makeIterator_.js\");\n\n    /**\n     * Object every\n     */\n    function every(obj, callback, thisObj) {\n        callback = makeIterator(callback, thisObj);\n        var result = true;\n        forOwn(obj, function(val, key) {\n            // we consider any falsy values as \"false\" on purpose so shorthand\n            // syntax can be used to check property existence\n            if (!callback(val, key, obj)) {\n                result = false;\n                return false; // break\n            }\n        });\n        return result;\n    }\n\n    module.exports = every;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/every.js?");
 
 /***/ }),
 
@@ -2745,28 +672,7 @@ var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forEach = __webpack_require__(/*! ../array/forEach */ "./node_modules/mout/array/forEach.js");
-var slice = __webpack_require__(/*! ../array/slice */ "./node_modules/mout/array/slice.js");
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-
-    /**
-     * Copy missing properties in the obj from the defaults.
-     */
-    function fillIn(obj, var_defaults){
-        forEach(slice(arguments, 1), function(base){
-            forOwn(base, function(val, key){
-                if (obj[key] == null) {
-                    obj[key] = val;
-                }
-            });
-        });
-        return obj;
-    }
-
-    module.exports = fillIn;
-
-
-
+eval("var forEach = __webpack_require__(/*! ../array/forEach */ \"./node_modules/mout/array/forEach.js\");\nvar slice = __webpack_require__(/*! ../array/slice */ \"./node_modules/mout/array/slice.js\");\nvar forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\n\n    /**\n     * Copy missing properties in the obj from the defaults.\n     */\n    function fillIn(obj, var_defaults){\n        forEach(slice(arguments, 1), function(base){\n            forOwn(base, function(val, key){\n                if (obj[key] == null) {\n                    obj[key] = val;\n                }\n            });\n        });\n        return obj;\n    }\n\n    module.exports = fillIn;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/fillIn.js?");
 
 /***/ }),
 
@@ -2777,27 +683,7 @@ var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/for
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_modules/mout/function/makeIterator_.js");
-
-    /**
-     * Creates a new object with all the properties where the callback returns
-     * true.
-     */
-    function filterValues(obj, callback, thisObj) {
-        callback = makeIterator(callback, thisObj);
-        var output = {};
-        forOwn(obj, function(value, key, obj) {
-            if (callback(value, key, obj)) {
-                output[key] = value;
-            }
-        });
-
-        return output;
-    }
-    module.exports = filterValues;
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ \"./node_modules/mout/function/makeIterator_.js\");\n\n    /**\n     * Creates a new object with all the properties where the callback returns\n     * true.\n     */\n    function filterValues(obj, callback, thisObj) {\n        callback = makeIterator(callback, thisObj);\n        var output = {};\n        forOwn(obj, function(value, key, obj) {\n            if (callback(value, key, obj)) {\n                output[key] = value;\n            }\n        });\n\n        return output;\n    }\n    module.exports = filterValues;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/filter.js?");
 
 /***/ }),
 
@@ -2808,28 +694,7 @@ var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var some = __webpack_require__(/*! ./some */ "./node_modules/mout/object/some.js");
-var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_modules/mout/function/makeIterator_.js");
-
-    /**
-     * Returns first item that matches criteria
-     */
-    function find(obj, callback, thisObj) {
-        callback = makeIterator(callback, thisObj);
-        var result;
-        some(obj, function(value, key, obj) {
-            if (callback(value, key, obj)) {
-                result = value;
-                return true; //break
-            }
-        });
-        return result;
-    }
-
-    module.exports = find;
-
-
-
+eval("var some = __webpack_require__(/*! ./some */ \"./node_modules/mout/object/some.js\");\nvar makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ \"./node_modules/mout/function/makeIterator_.js\");\n\n    /**\n     * Returns first item that matches criteria\n     */\n    function find(obj, callback, thisObj) {\n        callback = makeIterator(callback, thisObj);\n        var result;\n        some(obj, function(value, key, obj) {\n            if (callback(value, key, obj)) {\n                result = value;\n                return true; //break\n            }\n        });\n        return result;\n    }\n\n    module.exports = find;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/find.js?");
 
 /***/ }),
 
@@ -2840,45 +705,7 @@ var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-var isPlainObject = __webpack_require__(/*! ../lang/isPlainObject */ "./node_modules/mout/lang/isPlainObject.js");
-
-    /*
-     * Helper function to flatten to a destination object.
-     * Used to remove the need to create intermediate objects while flattening.
-     */
-    function flattenTo(obj, result, prefix, level) {
-        forOwn(obj, function (value, key) {
-            var nestedPrefix = prefix ? prefix + '.' + key : key;
-
-            if (level !== 0 && isPlainObject(value)) {
-                flattenTo(value, result, nestedPrefix, level - 1);
-            } else {
-                result[nestedPrefix] = value;
-            }
-        });
-
-        return result;
-    }
-
-    /**
-     * Recursively flattens an object.
-     * A new object containing all the elements is returned.
-     * If level is specified, it will only flatten up to that level.
-     */
-    function flatten(obj, level) {
-        if (obj == null) {
-            return {};
-        }
-
-        level = level == null ? -1 : level;
-        return flattenTo(obj, {}, '', level);
-    }
-
-    module.exports = flatten;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar isPlainObject = __webpack_require__(/*! ../lang/isPlainObject */ \"./node_modules/mout/lang/isPlainObject.js\");\n\n    /*\n     * Helper function to flatten to a destination object.\n     * Used to remove the need to create intermediate objects while flattening.\n     */\n    function flattenTo(obj, result, prefix, level) {\n        forOwn(obj, function (value, key) {\n            var nestedPrefix = prefix ? prefix + '.' + key : key;\n\n            if (level !== 0 && isPlainObject(value)) {\n                flattenTo(value, result, nestedPrefix, level - 1);\n            } else {\n                result[nestedPrefix] = value;\n            }\n        });\n\n        return result;\n    }\n\n    /**\n     * Recursively flattens an object.\n     * A new object containing all the elements is returned.\n     * If level is specified, it will only flatten up to that level.\n     */\n    function flatten(obj, level) {\n        if (obj == null) {\n            return {};\n        }\n\n        level = level == null ? -1 : level;\n        return flattenTo(obj, {}, '', level);\n    }\n\n    module.exports = flatten;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/flatten.js?");
 
 /***/ }),
 
@@ -2889,83 +716,7 @@ var isPlainObject = __webpack_require__(/*! ../lang/isPlainObject */ "./node_mod
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var hasOwn = __webpack_require__(/*! ./hasOwn */ "./node_modules/mout/object/hasOwn.js");
-
-    var _hasDontEnumBug,
-        _dontEnums;
-
-    function checkDontEnum(){
-        _dontEnums = [
-                'toString',
-                'toLocaleString',
-                'valueOf',
-                'hasOwnProperty',
-                'isPrototypeOf',
-                'propertyIsEnumerable',
-                'constructor'
-            ];
-
-        _hasDontEnumBug = true;
-
-        for (var key in {'toString': null}) {
-            _hasDontEnumBug = false;
-        }
-    }
-
-    /**
-     * Similar to Array/forEach but works over object properties and fixes Don't
-     * Enum bug on IE.
-     * based on: http://whattheheadsaid.com/2010/10/a-safer-object-keys-compatibility-implementation
-     */
-    function forIn(obj, fn, thisObj){
-        var key, i = 0;
-        // no need to check if argument is a real object that way we can use
-        // it for arrays, functions, date, etc.
-
-        //post-pone check till needed
-        if (_hasDontEnumBug == null) checkDontEnum();
-
-        for (key in obj) {
-            if (exec(fn, obj, key, thisObj) === false) {
-                break;
-            }
-        }
-
-
-        if (_hasDontEnumBug) {
-            var ctor = obj.constructor,
-                isProto = !!ctor && obj === ctor.prototype;
-
-            while (key = _dontEnums[i++]) {
-                // For constructor, if it is a prototype object the constructor
-                // is always non-enumerable unless defined otherwise (and
-                // enumerated above).  For non-prototype objects, it will have
-                // to be defined on this object, since it cannot be defined on
-                // any prototype objects.
-                //
-                // For other [[DontEnum]] properties, check if the value is
-                // different than Object prototype value.
-                if (
-                    (key !== 'constructor' ||
-                        (!isProto && hasOwn(obj, key))) &&
-                    obj[key] !== Object.prototype[key]
-                ) {
-                    if (exec(fn, obj, key, thisObj) === false) {
-                        break;
-                    }
-                }
-            }
-        }
-    }
-
-    function exec(fn, obj, key, thisObj){
-        return fn.call(thisObj, obj[key], key, obj);
-    }
-
-    module.exports = forIn;
-
-
-
+eval("var hasOwn = __webpack_require__(/*! ./hasOwn */ \"./node_modules/mout/object/hasOwn.js\");\n\n    var _hasDontEnumBug,\n        _dontEnums;\n\n    function checkDontEnum(){\n        _dontEnums = [\n                'toString',\n                'toLocaleString',\n                'valueOf',\n                'hasOwnProperty',\n                'isPrototypeOf',\n                'propertyIsEnumerable',\n                'constructor'\n            ];\n\n        _hasDontEnumBug = true;\n\n        for (var key in {'toString': null}) {\n            _hasDontEnumBug = false;\n        }\n    }\n\n    /**\n     * Similar to Array/forEach but works over object properties and fixes Don't\n     * Enum bug on IE.\n     * based on: http://whattheheadsaid.com/2010/10/a-safer-object-keys-compatibility-implementation\n     */\n    function forIn(obj, fn, thisObj){\n        var key, i = 0;\n        // no need to check if argument is a real object that way we can use\n        // it for arrays, functions, date, etc.\n\n        //post-pone check till needed\n        if (_hasDontEnumBug == null) checkDontEnum();\n\n        for (key in obj) {\n            if (exec(fn, obj, key, thisObj) === false) {\n                break;\n            }\n        }\n\n\n        if (_hasDontEnumBug) {\n            var ctor = obj.constructor,\n                isProto = !!ctor && obj === ctor.prototype;\n\n            while (key = _dontEnums[i++]) {\n                // For constructor, if it is a prototype object the constructor\n                // is always non-enumerable unless defined otherwise (and\n                // enumerated above).  For non-prototype objects, it will have\n                // to be defined on this object, since it cannot be defined on\n                // any prototype objects.\n                //\n                // For other [[DontEnum]] properties, check if the value is\n                // different than Object prototype value.\n                if (\n                    (key !== 'constructor' ||\n                        (!isProto && hasOwn(obj, key))) &&\n                    obj[key] !== Object.prototype[key]\n                ) {\n                    if (exec(fn, obj, key, thisObj) === false) {\n                        break;\n                    }\n                }\n            }\n        }\n    }\n\n    function exec(fn, obj, key, thisObj){\n        return fn.call(thisObj, obj[key], key, obj);\n    }\n\n    module.exports = forIn;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/forIn.js?");
 
 /***/ }),
 
@@ -2976,26 +727,7 @@ var hasOwn = __webpack_require__(/*! ./hasOwn */ "./node_modules/mout/object/has
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var hasOwn = __webpack_require__(/*! ./hasOwn */ "./node_modules/mout/object/hasOwn.js");
-var forIn = __webpack_require__(/*! ./forIn */ "./node_modules/mout/object/forIn.js");
-
-    /**
-     * Similar to Array/forEach but works over object properties and fixes Don't
-     * Enum bug on IE.
-     * based on: http://whattheheadsaid.com/2010/10/a-safer-object-keys-compatibility-implementation
-     */
-    function forOwn(obj, fn, thisObj){
-        forIn(obj, function(val, key){
-            if (hasOwn(obj, key)) {
-                return fn.call(thisObj, obj[key], key, obj);
-            }
-        });
-    }
-
-    module.exports = forOwn;
-
-
-
+eval("var hasOwn = __webpack_require__(/*! ./hasOwn */ \"./node_modules/mout/object/hasOwn.js\");\nvar forIn = __webpack_require__(/*! ./forIn */ \"./node_modules/mout/object/forIn.js\");\n\n    /**\n     * Similar to Array/forEach but works over object properties and fixes Don't\n     * Enum bug on IE.\n     * based on: http://whattheheadsaid.com/2010/10/a-safer-object-keys-compatibility-implementation\n     */\n    function forOwn(obj, fn, thisObj){\n        forIn(obj, function(val, key){\n            if (hasOwn(obj, key)) {\n                return fn.call(thisObj, obj[key], key, obj);\n            }\n        });\n    }\n\n    module.exports = forOwn;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/forOwn.js?");
 
 /***/ }),
 
@@ -3006,25 +738,7 @@ var forIn = __webpack_require__(/*! ./forIn */ "./node_modules/mout/object/forIn
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forIn = __webpack_require__(/*! ./forIn */ "./node_modules/mout/object/forIn.js");
-
-    /**
-     * return a list of all enumerable properties that have function values
-     */
-    function functions(obj){
-        var keys = [];
-        forIn(obj, function(val, key){
-            if (typeof val === 'function'){
-                keys.push(key);
-            }
-        });
-        return keys.sort();
-    }
-
-    module.exports = functions;
-
-
-
+eval("var forIn = __webpack_require__(/*! ./forIn */ \"./node_modules/mout/object/forIn.js\");\n\n    /**\n     * return a list of all enumerable properties that have function values\n     */\n    function functions(obj){\n        var keys = [];\n        forIn(obj, function(val, key){\n            if (typeof val === 'function'){\n                keys.push(key);\n            }\n        });\n        return keys.sort();\n    }\n\n    module.exports = functions;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/functions.js?");
 
 /***/ }),
 
@@ -3035,27 +749,7 @@ var forIn = __webpack_require__(/*! ./forIn */ "./node_modules/mout/object/forIn
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isPrimitive = __webpack_require__(/*! ../lang/isPrimitive */ "./node_modules/mout/lang/isPrimitive.js");
-
-    /**
-     * get "nested" object property
-     */
-    function get(obj, prop){
-        var parts = prop.split('.'),
-            last = parts.pop();
-
-        while (prop = parts.shift()) {
-            obj = obj[prop];
-            if (obj == null) return;
-        }
-
-        return obj[last];
-    }
-
-    module.exports = get;
-
-
-
+eval("var isPrimitive = __webpack_require__(/*! ../lang/isPrimitive */ \"./node_modules/mout/lang/isPrimitive.js\");\n\n    /**\n     * get \"nested\" object property\n     */\n    function get(obj, prop){\n        var parts = prop.split('.'),\n            last = parts.pop();\n\n        while (prop = parts.shift()) {\n            obj = obj[prop];\n            if (obj == null) return;\n        }\n\n        return obj[last];\n    }\n\n    module.exports = get;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/get.js?");
 
 /***/ }),
 
@@ -3066,22 +760,7 @@ var isPrimitive = __webpack_require__(/*! ../lang/isPrimitive */ "./node_modules
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var get = __webpack_require__(/*! ./get */ "./node_modules/mout/object/get.js");
-
-    var UNDEF;
-
-    /**
-     * Check if object has nested property.
-     */
-    function has(obj, prop){
-        return get(obj, prop) !== UNDEF;
-    }
-
-    module.exports = has;
-
-
-
-
+eval("var get = __webpack_require__(/*! ./get */ \"./node_modules/mout/object/get.js\");\n\n    var UNDEF;\n\n    /**\n     * Check if object has nested property.\n     */\n    function has(obj, prop){\n        return get(obj, prop) !== UNDEF;\n    }\n\n    module.exports = has;\n\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/has.js?");
 
 /***/ }),
 
@@ -3092,19 +771,7 @@ var get = __webpack_require__(/*! ./get */ "./node_modules/mout/object/get.js");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-    /**
-     * Safer Object.hasOwnProperty
-     */
-     function hasOwn(obj, prop){
-         return Object.prototype.hasOwnProperty.call(obj, prop);
-     }
-
-     module.exports = hasOwn;
-
-
-
+eval("\n\n    /**\n     * Safer Object.hasOwnProperty\n     */\n     function hasOwn(obj, prop){\n         return Object.prototype.hasOwnProperty.call(obj, prop);\n     }\n\n     module.exports = hasOwn;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/hasOwn.js?");
 
 /***/ }),
 
@@ -3115,23 +782,7 @@ var get = __webpack_require__(/*! ./get */ "./node_modules/mout/object/get.js");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-
-    /**
-     * Get object keys
-     */
-     var keys = Object.keys || function (obj) {
-            var keys = [];
-            forOwn(obj, function(val, key){
-                keys.push(key);
-            });
-            return keys;
-        };
-
-    module.exports = keys;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\n\n    /**\n     * Get object keys\n     */\n     var keys = Object.keys || function (obj) {\n            var keys = [];\n            forOwn(obj, function(val, key){\n                keys.push(key);\n            });\n            return keys;\n        };\n\n    module.exports = keys;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/keys.js?");
 
 /***/ }),
 
@@ -3142,25 +793,7 @@ var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/for
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_modules/mout/function/makeIterator_.js");
-
-    /**
-     * Creates a new object where all the values are the result of calling
-     * `callback`.
-     */
-    function mapValues(obj, callback, thisObj) {
-        callback = makeIterator(callback, thisObj);
-        var output = {};
-        forOwn(obj, function(val, key, obj) {
-            output[key] = callback(val, key, obj);
-        });
-
-        return output;
-    }
-    module.exports = mapValues;
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ \"./node_modules/mout/function/makeIterator_.js\");\n\n    /**\n     * Creates a new object where all the values are the result of calling\n     * `callback`.\n     */\n    function mapValues(obj, callback, thisObj) {\n        callback = makeIterator(callback, thisObj);\n        var output = {};\n        forOwn(obj, function(val, key, obj) {\n            output[key] = callback(val, key, obj);\n        });\n\n        return output;\n    }\n    module.exports = mapValues;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/map.js?");
 
 /***/ }),
 
@@ -3171,27 +804,7 @@ var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-
-    /**
-     * checks if a object contains all given properties/values
-     */
-    function matches(target, props){
-        // can't use "object/every" because of circular dependency
-        var result = true;
-        forOwn(props, function(val, key){
-            if (target[key] !== val) {
-                // break loop at first difference
-                return (result = false);
-            }
-        });
-        return result;
-    }
-
-    module.exports = matches;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\n\n    /**\n     * checks if a object contains all given properties/values\n     */\n    function matches(target, props){\n        // can't use \"object/every\" because of circular dependency\n        var result = true;\n        forOwn(props, function(val, key){\n            if (target[key] !== val) {\n                // break loop at first difference\n                return (result = false);\n            }\n        });\n        return result;\n    }\n\n    module.exports = matches;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/matches.js?");
 
 /***/ }),
 
@@ -3202,19 +815,7 @@ var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/for
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrMax = __webpack_require__(/*! ../array/max */ "./node_modules/mout/array/max.js");
-var values = __webpack_require__(/*! ./values */ "./node_modules/mout/object/values.js");
-
-    /**
-     * Returns maximum value inside object.
-     */
-    function max(obj, compareFn) {
-        return arrMax(values(obj), compareFn);
-    }
-
-    module.exports = max;
-
-
+eval("var arrMax = __webpack_require__(/*! ../array/max */ \"./node_modules/mout/array/max.js\");\nvar values = __webpack_require__(/*! ./values */ \"./node_modules/mout/object/values.js\");\n\n    /**\n     * Returns maximum value inside object.\n     */\n    function max(obj, compareFn) {\n        return arrMax(values(obj), compareFn);\n    }\n\n    module.exports = max;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/max.js?");
 
 /***/ }),
 
@@ -3225,47 +826,7 @@ var values = __webpack_require__(/*! ./values */ "./node_modules/mout/object/val
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var hasOwn = __webpack_require__(/*! ./hasOwn */ "./node_modules/mout/object/hasOwn.js");
-var deepClone = __webpack_require__(/*! ../lang/deepClone */ "./node_modules/mout/lang/deepClone.js");
-var isObject = __webpack_require__(/*! ../lang/isObject */ "./node_modules/mout/lang/isObject.js");
-
-    /**
-     * Deep merge objects.
-     */
-    function merge() {
-        var i = 1,
-            key, val, obj, target;
-
-        // make sure we don't modify source element and it's properties
-        // objects are passed by reference
-        target = deepClone( arguments[0] );
-
-        while (obj = arguments[i++]) {
-            for (key in obj) {
-                if ( ! hasOwn(obj, key) ) {
-                    continue;
-                }
-
-                val = obj[key];
-
-                if ( isObject(val) && isObject(target[key]) ){
-                    // inception, deep merge objects
-                    target[key] = merge(target[key], val);
-                } else {
-                    // make sure arrays, regexp, date, objects are cloned
-                    target[key] = deepClone(val);
-                }
-
-            }
-        }
-
-        return target;
-    }
-
-    module.exports = merge;
-
-
-
+eval("var hasOwn = __webpack_require__(/*! ./hasOwn */ \"./node_modules/mout/object/hasOwn.js\");\nvar deepClone = __webpack_require__(/*! ../lang/deepClone */ \"./node_modules/mout/lang/deepClone.js\");\nvar isObject = __webpack_require__(/*! ../lang/isObject */ \"./node_modules/mout/lang/isObject.js\");\n\n    /**\n     * Deep merge objects.\n     */\n    function merge() {\n        var i = 1,\n            key, val, obj, target;\n\n        // make sure we don't modify source element and it's properties\n        // objects are passed by reference\n        target = deepClone( arguments[0] );\n\n        while (obj = arguments[i++]) {\n            for (key in obj) {\n                if ( ! hasOwn(obj, key) ) {\n                    continue;\n                }\n\n                val = obj[key];\n\n                if ( isObject(val) && isObject(target[key]) ){\n                    // inception, deep merge objects\n                    target[key] = merge(target[key], val);\n                } else {\n                    // make sure arrays, regexp, date, objects are cloned\n                    target[key] = deepClone(val);\n                }\n\n            }\n        }\n\n        return target;\n    }\n\n    module.exports = merge;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/merge.js?");
 
 /***/ }),
 
@@ -3276,19 +837,7 @@ var isObject = __webpack_require__(/*! ../lang/isObject */ "./node_modules/mout/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrMin = __webpack_require__(/*! ../array/min */ "./node_modules/mout/array/min.js");
-var values = __webpack_require__(/*! ./values */ "./node_modules/mout/object/values.js");
-
-    /**
-     * Returns minimum value inside object.
-     */
-    function min(obj, iterator) {
-        return arrMin(values(obj), iterator);
-    }
-
-    module.exports = min;
-
-
+eval("var arrMin = __webpack_require__(/*! ../array/min */ \"./node_modules/mout/array/min.js\");\nvar values = __webpack_require__(/*! ./values */ \"./node_modules/mout/object/values.js\");\n\n    /**\n     * Returns minimum value inside object.\n     */\n    function min(obj, iterator) {\n        return arrMin(values(obj), iterator);\n    }\n\n    module.exports = min;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/min.js?");
 
 /***/ }),
 
@@ -3299,35 +848,7 @@ var values = __webpack_require__(/*! ./values */ "./node_modules/mout/object/val
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-
-    /**
-    * Combine properties from all the objects into first one.
-    * - This method affects target object in place, if you want to create a new Object pass an empty object as first param.
-    * @param {object} target    Target Object
-    * @param {...object} objects    Objects to be combined (0...n objects).
-    * @return {object} Target Object.
-    */
-    function mixIn(target, objects){
-        var i = 0,
-            n = arguments.length,
-            obj;
-        while(++i < n){
-            obj = arguments[i];
-            if (obj != null) {
-                forOwn(obj, copyProp, target);
-            }
-        }
-        return target;
-    }
-
-    function copyProp(val, key){
-        this[key] = val;
-    }
-
-    module.exports = mixIn;
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\n\n    /**\n    * Combine properties from all the objects into first one.\n    * - This method affects target object in place, if you want to create a new Object pass an empty object as first param.\n    * @param {object} target    Target Object\n    * @param {...object} objects    Objects to be combined (0...n objects).\n    * @return {object} Target Object.\n    */\n    function mixIn(target, objects){\n        var i = 0,\n            n = arguments.length,\n            obj;\n        while(++i < n){\n            obj = arguments[i];\n            if (obj != null) {\n                forOwn(obj, copyProp, target);\n            }\n        }\n        return target;\n    }\n\n    function copyProp(val, key){\n        this[key] = val;\n    }\n\n    module.exports = mixIn;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/mixIn.js?");
 
 /***/ }),
 
@@ -3338,26 +859,7 @@ var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/for
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forEach = __webpack_require__(/*! ../array/forEach */ "./node_modules/mout/array/forEach.js");
-
-    /**
-     * Create nested object if non-existent
-     */
-    function namespace(obj, path){
-        if (!path) return obj;
-        forEach(path.split('.'), function(key){
-            if (!obj[key]) {
-                obj[key] = {};
-            }
-            obj = obj[key];
-        });
-        return obj;
-    }
-
-    module.exports = namespace;
-
-
-
+eval("var forEach = __webpack_require__(/*! ../array/forEach */ \"./node_modules/mout/array/forEach.js\");\n\n    /**\n     * Create nested object if non-existent\n     */\n    function namespace(obj, path){\n        if (!path) return obj;\n        forEach(path.split('.'), function(key){\n            if (!obj[key]) {\n                obj[key] = {};\n            }\n            obj = obj[key];\n        });\n        return obj;\n    }\n\n    module.exports = namespace;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/namespace.js?");
 
 /***/ }),
 
@@ -3368,28 +870,7 @@ var forEach = __webpack_require__(/*! ../array/forEach */ "./node_modules/mout/a
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var slice = __webpack_require__(/*! ../array/slice */ "./node_modules/mout/array/slice.js");
-var contains = __webpack_require__(/*! ../array/contains */ "./node_modules/mout/array/contains.js");
-
-    /**
-     * Return a copy of the object, filtered to only contain properties except the blacklisted keys.
-     */
-    function omit(obj, var_keys){
-        var keys = typeof arguments[1] !== 'string'? arguments[1] : slice(arguments, 1),
-            out = {};
-
-        for (var property in obj) {
-            if (obj.hasOwnProperty(property) && !contains(keys, property)) {
-                out[property] = obj[property];
-            }
-        }
-        return out;
-    }
-
-    module.exports = omit;
-
-
-
+eval("var slice = __webpack_require__(/*! ../array/slice */ \"./node_modules/mout/array/slice.js\");\nvar contains = __webpack_require__(/*! ../array/contains */ \"./node_modules/mout/array/contains.js\");\n\n    /**\n     * Return a copy of the object, filtered to only contain properties except the blacklisted keys.\n     */\n    function omit(obj, var_keys){\n        var keys = typeof arguments[1] !== 'string'? arguments[1] : slice(arguments, 1),\n            out = {};\n\n        for (var property in obj) {\n            if (obj.hasOwnProperty(property) && !contains(keys, property)) {\n                out[property] = obj[property];\n            }\n        }\n        return out;\n    }\n\n    module.exports = omit;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/omit.js?");
 
 /***/ }),
 
@@ -3400,25 +881,7 @@ var contains = __webpack_require__(/*! ../array/contains */ "./node_modules/mout
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var slice = __webpack_require__(/*! ../array/slice */ "./node_modules/mout/array/slice.js");
-
-    /**
-     * Return a copy of the object, filtered to only have values for the whitelisted keys.
-     */
-    function pick(obj, var_keys){
-        var keys = typeof arguments[1] !== 'string'? arguments[1] : slice(arguments, 1),
-            out = {},
-            i = 0, key;
-        while (key = keys[i++]) {
-            out[key] = obj[key];
-        }
-        return out;
-    }
-
-    module.exports = pick;
-
-
-
+eval("var slice = __webpack_require__(/*! ../array/slice */ \"./node_modules/mout/array/slice.js\");\n\n    /**\n     * Return a copy of the object, filtered to only have values for the whitelisted keys.\n     */\n    function pick(obj, var_keys){\n        var keys = typeof arguments[1] !== 'string'? arguments[1] : slice(arguments, 1),\n            out = {},\n            i = 0, key;\n        while (key = keys[i++]) {\n            out[key] = obj[key];\n        }\n        return out;\n    }\n\n    module.exports = pick;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/pick.js?");
 
 /***/ }),
 
@@ -3429,20 +892,7 @@ var slice = __webpack_require__(/*! ../array/slice */ "./node_modules/mout/array
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var map = __webpack_require__(/*! ./map */ "./node_modules/mout/object/map.js");
-var prop = __webpack_require__(/*! ../function/prop */ "./node_modules/mout/function/prop.js");
-
-    /**
-     * Extract a list of property values.
-     */
-    function pluck(obj, propName){
-        return map(obj, prop(propName));
-    }
-
-    module.exports = pluck;
-
-
-
+eval("var map = __webpack_require__(/*! ./map */ \"./node_modules/mout/object/map.js\");\nvar prop = __webpack_require__(/*! ../function/prop */ \"./node_modules/mout/function/prop.js\");\n\n    /**\n     * Extract a list of property values.\n     */\n    function pluck(obj, propName){\n        return map(obj, prop(propName));\n    }\n\n    module.exports = pluck;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/pluck.js?");
 
 /***/ }),
 
@@ -3453,36 +903,7 @@ var prop = __webpack_require__(/*! ../function/prop */ "./node_modules/mout/func
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-var size = __webpack_require__(/*! ./size */ "./node_modules/mout/object/size.js");
-
-    /**
-     * Object reduce
-     */
-    function reduce(obj, callback, memo, thisObj) {
-        var initial = arguments.length > 2;
-
-        if (!size(obj) && !initial) {
-            throw new Error('reduce of empty object with no initial value');
-        }
-
-        forOwn(obj, function(value, key, list) {
-            if (!initial) {
-                memo = value;
-                initial = true;
-            }
-            else {
-                memo = callback.call(thisObj, memo, value, key, list);
-            }
-        });
-
-        return memo;
-    }
-
-    module.exports = reduce;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar size = __webpack_require__(/*! ./size */ \"./node_modules/mout/object/size.js\");\n\n    /**\n     * Object reduce\n     */\n    function reduce(obj, callback, memo, thisObj) {\n        var initial = arguments.length > 2;\n\n        if (!size(obj) && !initial) {\n            throw new Error('reduce of empty object with no initial value');\n        }\n\n        forOwn(obj, function(value, key, list) {\n            if (!initial) {\n                memo = value;\n                initial = true;\n            }\n            else {\n                memo = callback.call(thisObj, memo, value, key, list);\n            }\n        });\n\n        return memo;\n    }\n\n    module.exports = reduce;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/reduce.js?");
 
 /***/ }),
 
@@ -3493,23 +914,7 @@ var size = __webpack_require__(/*! ./size */ "./node_modules/mout/object/size.js
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var filter = __webpack_require__(/*! ./filter */ "./node_modules/mout/object/filter.js");
-var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_modules/mout/function/makeIterator_.js");
-
-    /**
-     * Object reject
-     */
-    function reject(obj, callback, thisObj) {
-        callback = makeIterator(callback, thisObj);
-        return filter(obj, function(value, index, obj) {
-            return !callback(value, index, obj);
-        }, thisObj);
-    }
-
-    module.exports = reject;
-
-
-
+eval("var filter = __webpack_require__(/*! ./filter */ \"./node_modules/mout/object/filter.js\");\nvar makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ \"./node_modules/mout/function/makeIterator_.js\");\n\n    /**\n     * Object reject\n     */\n    function reject(obj, callback, thisObj) {\n        callback = makeIterator(callback, thisObj);\n        return filter(obj, function(value, index, obj) {\n            return !callback(value, index, obj);\n        }, thisObj);\n    }\n\n    module.exports = reject;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/reject.js?");
 
 /***/ }),
 
@@ -3520,21 +925,7 @@ var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isFunction = __webpack_require__(/*! ../lang/isFunction */ "./node_modules/mout/lang/isFunction.js");
-
-    function result(obj, prop) {
-        var property = obj[prop];
-
-        if(property === undefined) {
-            return;
-        }
-
-        return isFunction(property) ? property.call(obj) : property;
-    }
-
-    module.exports = result;
-
-
+eval("var isFunction = __webpack_require__(/*! ../lang/isFunction */ \"./node_modules/mout/lang/isFunction.js\");\n\n    function result(obj, prop) {\n        var property = obj[prop];\n\n        if(property === undefined) {\n            return;\n        }\n\n        return isFunction(property) ? property.call(obj) : property;\n    }\n\n    module.exports = result;\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/result.js?");
 
 /***/ }),
 
@@ -3545,24 +936,7 @@ var isFunction = __webpack_require__(/*! ../lang/isFunction */ "./node_modules/m
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var namespace = __webpack_require__(/*! ./namespace */ "./node_modules/mout/object/namespace.js");
-
-    /**
-     * set "nested" object property
-     */
-    function set(obj, prop, val){
-        var parts = (/^(.+)\.(.+)$/).exec(prop);
-        if (parts){
-            namespace(obj, parts[1])[parts[2]] = val;
-        } else {
-            obj[prop] = val;
-        }
-    }
-
-    module.exports = set;
-
-
-
+eval("var namespace = __webpack_require__(/*! ./namespace */ \"./node_modules/mout/object/namespace.js\");\n\n    /**\n     * set \"nested\" object property\n     */\n    function set(obj, prop, val){\n        var parts = (/^(.+)\\.(.+)$/).exec(prop);\n        if (parts){\n            namespace(obj, parts[1])[parts[2]] = val;\n        } else {\n            obj[prop] = val;\n        }\n    }\n\n    module.exports = set;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/set.js?");
 
 /***/ }),
 
@@ -3573,23 +947,7 @@ var namespace = __webpack_require__(/*! ./namespace */ "./node_modules/mout/obje
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-
-    /**
-     * Get object size
-     */
-    function size(obj) {
-        var count = 0;
-        forOwn(obj, function(){
-            count++;
-        });
-        return count;
-    }
-
-    module.exports = size;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\n\n    /**\n     * Get object size\n     */\n    function size(obj) {\n        var count = 0;\n        forOwn(obj, function(){\n            count++;\n        });\n        return count;\n    }\n\n    module.exports = size;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/size.js?");
 
 /***/ }),
 
@@ -3600,28 +958,7 @@ var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/for
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_modules/mout/function/makeIterator_.js");
-
-    /**
-     * Object some
-     */
-    function some(obj, callback, thisObj) {
-        callback = makeIterator(callback, thisObj);
-        var result = false;
-        forOwn(obj, function(val, key) {
-            if (callback(val, key, obj)) {
-                result = true;
-                return false; // break
-            }
-        });
-        return result;
-    }
-
-    module.exports = some;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\nvar makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ \"./node_modules/mout/function/makeIterator_.js\");\n\n    /**\n     * Object some\n     */\n    function some(obj, callback, thisObj) {\n        callback = makeIterator(callback, thisObj);\n        var result = false;\n        forOwn(obj, function(val, key) {\n            if (callback(val, key, obj)) {\n                result = true;\n                return false; // break\n            }\n        });\n        return result;\n    }\n\n    module.exports = some;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/some.js?");
 
 /***/ }),
 
@@ -3632,30 +969,7 @@ var makeIterator = __webpack_require__(/*! ../function/makeIterator_ */ "./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var has = __webpack_require__(/*! ./has */ "./node_modules/mout/object/has.js");
-
-    /**
-     * Unset object property.
-     */
-    function unset(obj, prop){
-        if (has(obj, prop)) {
-            var parts = prop.split('.'),
-                last = parts.pop();
-            while (prop = parts.shift()) {
-                obj = obj[prop];
-            }
-            return (delete obj[last]);
-
-        } else {
-            // if property doesn't exist treat as deleted
-            return true;
-        }
-    }
-
-    module.exports = unset;
-
-
-
+eval("var has = __webpack_require__(/*! ./has */ \"./node_modules/mout/object/has.js\");\n\n    /**\n     * Unset object property.\n     */\n    function unset(obj, prop){\n        if (has(obj, prop)) {\n            var parts = prop.split('.'),\n                last = parts.pop();\n            while (prop = parts.shift()) {\n                obj = obj[prop];\n            }\n            return (delete obj[last]);\n\n        } else {\n            // if property doesn't exist treat as deleted\n            return true;\n        }\n    }\n\n    module.exports = unset;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/unset.js?");
 
 /***/ }),
 
@@ -3666,23 +980,7 @@ var has = __webpack_require__(/*! ./has */ "./node_modules/mout/object/has.js");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/forOwn.js");
-
-    /**
-     * Get object values
-     */
-    function values(obj) {
-        var vals = [];
-        forOwn(obj, function(val, key){
-            vals.push(val);
-        });
-        return vals;
-    }
-
-    module.exports = values;
-
-
-
+eval("var forOwn = __webpack_require__(/*! ./forOwn */ \"./node_modules/mout/object/forOwn.js\");\n\n    /**\n     * Get object values\n     */\n    function values(obj) {\n        var vals = [];\n        forOwn(obj, function(val, key){\n            vals.push(val);\n        });\n        return vals;\n    }\n\n    module.exports = values;\n\n\n\n\n//# sourceURL=webpack://LocalesList/./node_modules/mout/object/values.js?");
 
 /***/ }),
 
@@ -3694,73 +992,9 @@ var forOwn = __webpack_require__(/*! ./forOwn */ "./node_modules/mout/object/for
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _langmap = __webpack_require__(/*! langmap */ "./node_modules/langmap/language-mapping-list.js");
-
-var _langmap2 = _interopRequireDefault(_langmap);
-
-var _iso31661Alpha = __webpack_require__(/*! iso-3166-1-alpha-2 */ "./node_modules/iso-3166-1-alpha-2/index.js");
-
-var _iso31661Alpha2 = _interopRequireDefault(_iso31661Alpha);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var allLocales = [];
-for (var code in _langmap2.default) {
-    if (!_langmap2.default.hasOwnProperty(code)) continue;
-
-    if (code.includes('-')) {
-        var item = {
-            locale: {
-                iso_639: code.split('-')[0],
-                iso_639_with_country: code,
-                native_name: _langmap2.default[code].nativeName,
-                english_name: _langmap2.default[code].englishName
-            },
-            country: {
-                iso_3166_1_alpha_2: code.split('-')[1],
-                english_name: _iso31661Alpha2.default.getCountry(code.split('-')[1])
-            }
-        };
-
-        if (!item.country.english_name) continue;
-
-        allLocales.push(item);
-    }
-}
-
-var LocalesList = function () {
-    function LocalesList() {
-        (0, _classCallCheck3.default)(this, LocalesList);
-    }
-
-    (0, _createClass3.default)(LocalesList, null, [{
-        key: 'getAll',
-        value: function getAll() {
-            return allLocales;
-        }
-    }]);
-    return LocalesList;
-}();
-
-exports.default = LocalesList;
-module.exports = exports['default'];
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _langmap = __webpack_require__(/*! langmap */ \"./node_modules/langmap/language-mapping-list.js\");\n\nvar _langmap2 = _interopRequireDefault(_langmap);\n\nvar _iso31661Alpha = __webpack_require__(/*! iso-3166-1-alpha-2 */ \"./node_modules/iso-3166-1-alpha-2/index.js\");\n\nvar _iso31661Alpha2 = _interopRequireDefault(_iso31661Alpha);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar allLocales = [];\nfor (var code in _langmap2.default) {\n    if (!_langmap2.default.hasOwnProperty(code)) continue;\n\n    if (code.includes('-')) {\n        var item = {\n            locale: {\n                iso_639: code.split('-')[0],\n                iso_639_with_country: code,\n                native_name: _langmap2.default[code].nativeName,\n                english_name: _langmap2.default[code].englishName\n            },\n            country: {\n                iso_3166_1_alpha_2: code.split('-')[1],\n                english_name: _iso31661Alpha2.default.getCountry(code.split('-')[1])\n            }\n        };\n\n        if (!item.country.english_name) continue;\n\n        allLocales.push(item);\n    }\n}\n\nvar LocalesList = function () {\n    function LocalesList() {\n        (0, _classCallCheck3.default)(this, LocalesList);\n    }\n\n    (0, _createClass3.default)(LocalesList, null, [{\n        key: 'getAll',\n        value: function getAll() {\n            return allLocales;\n        }\n    }]);\n    return LocalesList;\n}();\n\nexports.default = LocalesList;\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://LocalesList/./src/index.js?");
 
 /***/ })
 
 /******/ });
 });
-//# sourceMappingURL=index.js.map

@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const banner = require('./banner');
 
 let webpackConfig = {
     mode: 'development',
@@ -13,7 +14,6 @@ let webpackConfig = {
         library: 'LocalesList',
         libraryTarget: 'umd',
     },
-    devtool: 'cheap-source-map',
     module: {
         rules: [
             {
@@ -33,6 +33,7 @@ let webpackConfig = {
     plugins: [
         new webpack.NamedModulesPlugin(),
         new CleanWebpackPlugin(['./build']),
+        new webpack.BannerPlugin({ banner })
     ],
 };
 

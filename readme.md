@@ -18,10 +18,15 @@ npm install locales-list
 ## Methods
 
 
-### getAll() 
+### getAllLocales() 
   - @return {array}
 
-Return array of all locales
+Return array of all locales with country. This method returns information **only about locales** that have xx-XX format, locales for which the format does not have a country code are ignored here.
+
+### getAllCountries() 
+  - @return {object}
+
+Return object with all countries from [ISO 3166-1 alpha-2](https://github.com/georgzoeller/iso-3166-1-alpha-2).
 
 ## Usage
 

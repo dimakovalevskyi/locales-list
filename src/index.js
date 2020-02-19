@@ -26,7 +26,10 @@ for (let code in langmap) {
 }
 
 export default class LocalesList {
-    static getAll () {
+    static getAllLocales () {
         return allLocales;
+    }
+    static getAllCountries () {
+        return iso3311a2.getData();
     }
 }
